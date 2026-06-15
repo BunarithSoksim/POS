@@ -1,0 +1,91 @@
+version: '3.9'
+
+services:
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: pos_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+
+  file-v3:
+    build: ./file-v3
+    container_name: pos_file
+    restart: unless-stopped
+    depends_on:
+      - postgres
+    environment:
+      PORT: 8080
+      DB_CONNECTION: postgres
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_DATABASE: file
+      DB_USERNAME: postgres
+      DB_PASSWORD: 123456
+    ports:
+      - "8080:8080"
+
+  report-v3:
+    build: ./report-v3
+    container_name: pos_report
+    restart: unless-stopped
+    ports:
+      - "5488:5488"
+
+  api-v4:
+    build: ./api-v4
+    container_name: pos_api
+    restart: unless-stopped
+    depends_on:
+      - postgres
+      - file-v3
+      - report-v3
+    environment:
+      PORT: 7878
+      DB_CONNECTION: postgres
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_DATABASE: mydb
+      DB_USERNAME: user1
+      DB_PASSWORD: 123456
+      DB_TIMEZONE: Asia/Phnom_Penh
+      FILE_BASE_URL: http://file-v3:8080
+      FILE_USERNAME: admin
+      FILE_PASSWORD: admin
+      JWT_SECRET: ZcXEH9VyRNVnjWBuNXdjbJAsPDHKWBVAD0INqDHPhEc
+      JS_BASE_URL: http://report-v3:5488
+      JS_USERNAME: admin
+      JS_PASSWORD: CamCyberTeam
+      JS_TEMPLATE: /invoice-pos/invoice-main
+      JS_TEMPLATE_POS: /invoice-pos/invoice-main
+      JS_TEMPLATE_CASHIER: /report_cashier/main
+      JS_TEMPLATE_PRODUCT: /report_product/pdf/main
+      JS_TEMPLATE_SALE_EXCEL: /report_sale/excel/sale-excel
+      JS_TEMPLATE_PRODUCT_EXCEL: /report_product/excel/product-excel
+    ports:
+      - "7878:7878"
+
+  web-v4:
+    build:
+      context: ./web-v4
+      dockerfile: Dockerfile.IOS
+      args:
+        API_BASE_URL: http://localhost:7878/api
+        FILE_BASE_URL: http://localhost:8080/
+        SOCKET_URL: http://localhost:7878
+    container_name: pos_web
+    restart: unless-stopped
+    depends_on:
+      - api-v4
+    ports:
+      - "4200:80"
+
+volumes:
+  postgres_data:
