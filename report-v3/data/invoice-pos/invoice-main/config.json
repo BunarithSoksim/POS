@@ -1,0 +1,28 @@
+{
+    "name": "invoice-main",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "QqvBKlmfs"
+    },
+    "shortid": "NnmocZQpoR",
+    "chrome": {
+        "printBackground": true,
+        "format": "A4",
+        "marginTop": "10mm",
+        "marginLeft": "10mm",
+        "marginRight": "10mm",
+        "marginBottom": "10mm"
+    },
+    "creationDate": {
+        "$$date": 1703907376906
+    },
+    "modificationDate": {
+        "$$date": 1780979819480
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "A8P5vejMEjHhRpGc",
+    "readSharingToken": "d27e5561-01e2-4553-941f-4a89abac40bd",
+    "$entitySet": "templates"
+}

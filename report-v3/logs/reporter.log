@@ -1,0 +1,1284 @@
+2023-12-30T03:35:33.275Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 18.17.1)
+2023-12-30T03:35:33.277Z - info: Searching for available extensions in C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\
+2023-12-30T03:35:33.284Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\
+2023-12-30T03:35:33.289Z - info: Found 35 extension(s)
+2023-12-30T03:35:33.346Z - info: Using extension base@4.0.0
+2023-12-30T03:35:33.350Z - info: Using extension child-templates@4.0.0
+2023-12-30T03:35:33.354Z - info: Using extension cli@4.0.2
+2023-12-30T03:35:33.356Z - info: Using extension components@4.0.0
+2023-12-30T03:35:33.357Z - info: Using extension data@4.0.0
+2023-12-30T03:35:33.358Z - info: Using extension express@4.0.1
+2023-12-30T03:35:33.572Z - info: Using extension freeze@4.0.0
+2023-12-30T03:35:33.575Z - info: Using extension fs-store@4.0.1
+2023-12-30T03:35:33.649Z - info: Using extension handlebars@4.0.1
+2023-12-30T03:35:33.651Z - info: Using extension import-export@4.0.2
+2023-12-30T03:35:33.661Z - info: Using extension jsrender@4.0.0
+2023-12-30T03:35:33.662Z - info: Using extension licensing@4.0.1
+2023-12-30T03:35:33.667Z - info: Using extension localization@4.0.1
+2023-12-30T03:35:33.668Z - info: Using extension npm@4.0.0
+2023-12-30T03:35:33.673Z - info: Using extension pdf-utils@4.0.2
+2023-12-30T03:35:33.676Z - info: Using extension reports@4.0.0
+2023-12-30T03:35:33.680Z - info: Using extension tags@4.0.1
+2023-12-30T03:35:33.682Z - info: Using extension text@4.0.0
+2023-12-30T03:35:33.683Z - info: Using extension version-control@4.0.0
+2023-12-30T03:35:33.698Z - info: Using extension assets@4.0.2
+2023-12-30T03:35:33.706Z - info: Using extension authorization@4.0.0
+2023-12-30T03:35:33.709Z - info: Using extension browser-client@4.0.0
+2023-12-30T03:35:33.711Z - info: Using extension chrome-pdf@4.0.0
+2023-12-30T03:35:33.714Z - info: Using extension docx@4.1.1
+2023-12-30T03:35:33.716Z - info: Using extension html-to-xlsx@4.0.1
+2023-12-30T03:35:33.964Z - info: html-to-xlsx detected chrome as available html engine
+2023-12-30T03:35:33.967Z - info: Using extension pptx@4.1.0
+2023-12-30T03:35:33.969Z - info: Using extension scheduling@4.0.0
+2023-12-30T03:35:33.990Z - info: Using extension scripts@4.0.0
+2023-12-30T03:35:33.991Z - info: Using extension static-pdf@4.0.0
+2023-12-30T03:35:33.991Z - info: Using extension studio@4.0.2
+2023-12-30T03:35:34.041Z - info: Using extension xlsx@4.0.2
+2023-12-30T03:35:34.043Z - info: Using extension public-templates@4.0.0
+2023-12-30T03:35:34.044Z - info: Using extension sample-template@4.0.0
+2023-12-30T03:35:34.045Z - info: Using extension studio-theme-dark@4.0.0
+2023-12-30T03:35:34.047Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-12-30T03:35:34.047Z - info: Using fs provider for template store.
+2023-12-30T03:35:34.051Z - info: fs store is persisting using fs for C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\data
+2023-12-30T03:35:34.059Z - info: fs store is loading data
+2023-12-30T03:35:34.064Z - info: fs store is initialized successfully
+2023-12-30T03:35:34.073Z - info: Creating default express app.
+2023-12-30T03:35:34.089Z - info: jsreport server successfully started on http port: 5488
+2023-12-30T03:35:34.090Z - info: Verifying license key free
+2023-12-30T03:35:34.091Z - info: Using free license
+2023-12-30T03:35:34.124Z - info: Migrating templates chrome settings (waitForNetworkIddle -> waitForNetworkIdle)
+2023-12-30T03:35:34.129Z - info: Migration successful
+2023-12-30T03:35:34.130Z - info: Initializing worker threads
+2023-12-30T03:35:34.913Z - info: 2 worker threads initialized in 783ms
+2023-12-30T03:35:34.914Z - info: Starting temp files cleanup with 180000ms threshold
+2023-12-30T03:35:34.915Z - info: reporter initialized
+2023-12-30T03:38:13.081Z - info: Render request 1 queued for execution and waiting for available worker rootId=l34tm42t110lak9, id=l34tm42t110lak9
+2023-12-30T03:38:13.143Z - info: Starting rendering request 1 rootId=l34tm42t110lak9, id=l34tm42t110lak9
+2023-12-30T03:38:13.143Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=l34tm42t110lak9, id=l34tm42t110lak9
+2023-12-30T03:38:14.887Z - info: Rendering request 1 finished in 1807 ms rootId=l34tm42t110lak9, id=l34tm42t110lak9
+2023-12-30T03:39:10.994Z - info: Render request 2 queued for execution and waiting for available worker rootId=27gvhja7rmcpwzp, id=27gvhja7rmcpwzp
+2023-12-30T03:39:11.043Z - info: Starting rendering request 2 rootId=27gvhja7rmcpwzp, id=27gvhja7rmcpwzp
+2023-12-30T03:39:11.044Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=27gvhja7rmcpwzp, id=27gvhja7rmcpwzp
+2023-12-30T03:39:11.745Z - info: Rendering request 2 finished in 751 ms rootId=27gvhja7rmcpwzp, id=27gvhja7rmcpwzp
+2023-12-30T03:43:34.675Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 18.17.1)
+2023-12-30T03:43:34.676Z - info: Searching for available extensions in C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\
+2023-12-30T03:43:34.682Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\
+2023-12-30T03:43:34.688Z - info: Found 35 extension(s)
+2023-12-30T03:43:34.741Z - info: Using extension authentication@4.0.1
+2023-12-30T03:43:34.891Z - info: Using extension base@4.0.0
+2023-12-30T03:43:34.894Z - info: Using extension child-templates@4.0.0
+2023-12-30T03:43:34.895Z - info: Using extension cli@4.0.2
+2023-12-30T03:43:34.897Z - info: Using extension components@4.0.0
+2023-12-30T03:43:34.898Z - info: Using extension data@4.0.0
+2023-12-30T03:43:34.899Z - info: Using extension express@4.0.1
+2023-12-30T03:43:35.085Z - info: Using extension freeze@4.0.0
+2023-12-30T03:43:35.087Z - info: Using extension fs-store@4.0.1
+2023-12-30T03:43:35.159Z - info: Using extension handlebars@4.0.1
+2023-12-30T03:43:35.161Z - info: Using extension import-export@4.0.2
+2023-12-30T03:43:35.168Z - info: Using extension jsrender@4.0.0
+2023-12-30T03:43:35.168Z - info: Using extension licensing@4.0.1
+2023-12-30T03:43:35.172Z - info: Using extension localization@4.0.1
+2023-12-30T03:43:35.173Z - info: Using extension npm@4.0.0
+2023-12-30T03:43:35.176Z - info: Using extension pdf-utils@4.0.2
+2023-12-30T03:43:35.178Z - info: Using extension reports@4.0.0
+2023-12-30T03:43:35.180Z - info: Using extension tags@4.0.1
+2023-12-30T03:43:35.181Z - info: Using extension text@4.0.0
+2023-12-30T03:43:35.182Z - info: Using extension version-control@4.0.0
+2023-12-30T03:43:35.191Z - info: Using extension assets@4.0.2
+2023-12-30T03:43:35.200Z - info: Using extension authorization@4.0.0
+2023-12-30T03:43:35.203Z - info: Using extension browser-client@4.0.0
+2023-12-30T03:43:35.205Z - info: Using extension chrome-pdf@4.0.0
+2023-12-30T03:43:35.207Z - info: Using extension docx@4.1.1
+2023-12-30T03:43:35.209Z - info: Using extension html-to-xlsx@4.0.1
+2023-12-30T03:43:35.451Z - info: html-to-xlsx detected chrome as available html engine
+2023-12-30T03:43:35.451Z - info: Using extension pptx@4.1.0
+2023-12-30T03:43:35.453Z - info: Using extension scheduling@4.0.0
+2023-12-30T03:43:35.477Z - info: Using extension scripts@4.0.0
+2023-12-30T03:43:35.478Z - info: Using extension static-pdf@4.0.0
+2023-12-30T03:43:35.479Z - info: Using extension studio@4.0.2
+2023-12-30T03:43:35.531Z - info: Using extension xlsx@4.0.2
+2023-12-30T03:43:35.532Z - info: Using extension public-templates@4.0.0
+2023-12-30T03:43:35.533Z - info: Using extension sample-template@4.0.0
+2023-12-30T03:43:35.535Z - info: Using extension studio-theme-dark@4.0.0
+2023-12-30T03:43:35.536Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-12-30T03:43:35.536Z - info: Using fs provider for template store.
+2023-12-30T03:43:35.540Z - info: fs store is persisting using fs for C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\data
+2023-12-30T03:43:35.548Z - info: fs store is loading data
+2023-12-30T03:43:35.568Z - info: fs store is initialized successfully
+2023-12-30T03:43:35.578Z - info: Creating default express app.
+2023-12-30T03:43:35.600Z - info: jsreport server successfully started on http port: 5488
+2023-12-30T03:43:35.602Z - info: Verifying license key free
+2023-12-30T03:43:35.603Z - info: Using free license
+2023-12-30T03:43:35.607Z - info: Initializing worker threads
+2023-12-30T03:43:36.362Z - info: 2 worker threads initialized in 755ms
+2023-12-30T03:43:36.363Z - info: Starting temp files cleanup with 180000ms threshold
+2023-12-30T03:43:36.364Z - info: reporter initialized
+2023-12-30T03:45:53.991Z - info: Render request 1 queued for execution and waiting for available worker rootId=tzzz8opk52cao01, id=tzzz8opk52cao01
+2023-12-30T03:45:54.053Z - info: Starting rendering request 1 (user: admin) rootId=tzzz8opk52cao01, id=tzzz8opk52cao01
+2023-12-30T03:45:54.054Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=tzzz8opk52cao01, id=tzzz8opk52cao01
+2023-12-30T03:45:54.864Z - info: Rendering request 1 finished in 872 ms rootId=tzzz8opk52cao01, id=tzzz8opk52cao01
+2023-12-30T03:49:27.581Z - info: Render request 2 queued for execution and waiting for available worker rootId=5ypkf0c1qpjudcm, id=5ypkf0c1qpjudcm
+2023-12-30T03:49:27.627Z - info: Starting rendering request 2 (user: admin) rootId=5ypkf0c1qpjudcm, id=5ypkf0c1qpjudcm
+2023-12-30T03:49:27.628Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=5ypkf0c1qpjudcm, id=5ypkf0c1qpjudcm
+2023-12-30T03:49:28.275Z - info: Rendering request 2 finished in 692 ms rootId=5ypkf0c1qpjudcm, id=5ypkf0c1qpjudcm
+2023-12-30T03:54:25.633Z - info: Render request 3 queued for execution and waiting for available worker rootId=p179lemq1n4dg4g, id=p179lemq1n4dg4g
+2023-12-30T03:54:25.642Z - info: Starting rendering request 3 (user: admin) rootId=p179lemq1n4dg4g, id=p179lemq1n4dg4g
+2023-12-30T03:54:25.642Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=p179lemq1n4dg4g, id=p179lemq1n4dg4g
+2023-12-30T03:54:25.834Z - info: Rendering request 3 finished in 201 ms rootId=p179lemq1n4dg4g, id=p179lemq1n4dg4g
+2023-12-30T05:29:28.602Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 18.17.1)
+2023-12-30T05:29:28.604Z - info: Searching for available extensions in C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\
+2023-12-30T05:29:28.610Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\
+2023-12-30T05:29:28.619Z - info: Found 35 extension(s)
+2023-12-30T05:29:28.686Z - info: Using extension authentication@4.0.1
+2023-12-30T05:29:28.890Z - info: Using extension base@4.0.0
+2023-12-30T05:29:28.893Z - info: Using extension child-templates@4.0.0
+2023-12-30T05:29:28.895Z - info: Using extension cli@4.0.2
+2023-12-30T05:29:28.897Z - info: Using extension components@4.0.0
+2023-12-30T05:29:28.898Z - info: Using extension data@4.0.0
+2023-12-30T05:29:28.899Z - info: Using extension express@4.0.1
+2023-12-30T05:29:29.223Z - info: Using extension freeze@4.0.0
+2023-12-30T05:29:29.225Z - info: Using extension fs-store@4.0.1
+2023-12-30T05:29:29.340Z - info: Using extension handlebars@4.0.1
+2023-12-30T05:29:29.342Z - info: Using extension import-export@4.0.2
+2023-12-30T05:29:29.353Z - info: Using extension jsrender@4.0.0
+2023-12-30T05:29:29.354Z - info: Using extension licensing@4.0.1
+2023-12-30T05:29:29.359Z - info: Using extension localization@4.0.1
+2023-12-30T05:29:29.360Z - info: Using extension npm@4.0.0
+2023-12-30T05:29:29.362Z - info: Using extension pdf-utils@4.0.2
+2023-12-30T05:29:29.364Z - info: Using extension reports@4.0.0
+2023-12-30T05:29:29.367Z - info: Using extension tags@4.0.1
+2023-12-30T05:29:29.369Z - info: Using extension text@4.0.0
+2023-12-30T05:29:29.370Z - info: Using extension version-control@4.0.0
+2023-12-30T05:29:29.384Z - info: Using extension assets@4.0.2
+2023-12-30T05:29:29.396Z - info: Using extension authorization@4.0.0
+2023-12-30T05:29:29.401Z - info: Using extension browser-client@4.0.0
+2023-12-30T05:29:29.404Z - info: Using extension chrome-pdf@4.0.0
+2023-12-30T05:29:29.407Z - info: Using extension docx@4.1.1
+2023-12-30T05:29:29.409Z - info: Using extension html-to-xlsx@4.0.1
+2023-12-30T05:29:29.780Z - info: html-to-xlsx detected chrome as available html engine
+2023-12-30T05:29:29.780Z - info: Using extension pptx@4.1.0
+2023-12-30T05:29:29.782Z - info: Using extension scheduling@4.0.0
+2023-12-30T05:29:29.813Z - info: Using extension scripts@4.0.0
+2023-12-30T05:29:29.814Z - info: Using extension static-pdf@4.0.0
+2023-12-30T05:29:29.815Z - info: Using extension studio@4.0.2
+2023-12-30T05:29:29.886Z - info: Using extension xlsx@4.0.2
+2023-12-30T05:29:29.888Z - info: Using extension public-templates@4.0.0
+2023-12-30T05:29:29.889Z - info: Using extension sample-template@4.0.0
+2023-12-30T05:29:29.891Z - info: Using extension studio-theme-dark@4.0.0
+2023-12-30T05:29:29.893Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-12-30T05:29:29.893Z - info: Using fs provider for template store.
+2023-12-30T05:29:29.897Z - info: fs store is persisting using fs for C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\data
+2023-12-30T05:29:29.906Z - info: fs store is loading data
+2023-12-30T05:29:29.925Z - info: fs store is initialized successfully
+2023-12-30T05:29:29.936Z - info: Creating default express app.
+2023-12-30T05:29:29.966Z - info: jsreport server successfully started on http port: 5488
+2023-12-30T05:29:29.968Z - info: Verifying license key free
+2023-12-30T05:29:29.968Z - info: Using free license
+2023-12-30T05:29:29.972Z - info: Initializing worker threads
+2023-12-30T05:29:30.796Z - info: 2 worker threads initialized in 824ms
+2023-12-30T05:29:30.798Z - info: Starting temp files cleanup with 180000ms threshold
+2023-12-30T05:29:30.800Z - info: reporter initialized
+2023-12-30T06:16:47.759Z - info: Render request 1 queued for execution and waiting for available worker rootId=gujkyjg3tnyogqt, id=gujkyjg3tnyogqt
+2023-12-30T06:16:47.860Z - info: Starting rendering request 1 (user: admin) rootId=gujkyjg3tnyogqt, id=gujkyjg3tnyogqt
+2023-12-30T06:16:47.861Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=gujkyjg3tnyogqt, id=gujkyjg3tnyogqt
+2023-12-30T06:16:49.338Z - info: Rendering request 1 finished in 1583 ms rootId=gujkyjg3tnyogqt, id=gujkyjg3tnyogqt
+2023-12-30T06:34:25.719Z - info: Render request 2 queued for execution and waiting for available worker rootId=cnzl359a47cjgyh, id=cnzl359a47cjgyh
+2023-12-30T06:34:25.786Z - info: Starting rendering request 2 (user: admin) rootId=cnzl359a47cjgyh, id=cnzl359a47cjgyh
+2023-12-30T06:34:25.786Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=cnzl359a47cjgyh, id=cnzl359a47cjgyh
+2023-12-30T06:34:26.682Z - info: Rendering request 2 finished in 963 ms rootId=cnzl359a47cjgyh, id=cnzl359a47cjgyh
+2024-01-01T08:47:39.768Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 18.17.1)
+2024-01-01T08:47:39.770Z - info: Searching for available extensions in C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\
+2024-01-01T08:47:39.779Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\
+2024-01-01T08:47:39.789Z - info: Found 35 extension(s)
+2024-01-01T08:47:39.867Z - info: Using extension authentication@4.0.1
+2024-01-01T08:47:40.179Z - info: Using extension base@4.0.0
+2024-01-01T08:47:40.182Z - info: Using extension child-templates@4.0.0
+2024-01-01T08:47:40.184Z - info: Using extension cli@4.0.2
+2024-01-01T08:47:40.188Z - info: Using extension components@4.0.0
+2024-01-01T08:47:40.191Z - info: Using extension data@4.0.0
+2024-01-01T08:47:40.192Z - info: Using extension express@4.0.1
+2024-01-01T08:47:40.589Z - info: Using extension freeze@4.0.0
+2024-01-01T08:47:40.591Z - info: Using extension fs-store@4.0.1
+2024-01-01T08:47:40.734Z - info: Using extension handlebars@4.0.1
+2024-01-01T08:47:40.737Z - info: Using extension import-export@4.0.2
+2024-01-01T08:47:40.751Z - info: Using extension jsrender@4.0.0
+2024-01-01T08:47:40.752Z - info: Using extension licensing@4.0.1
+2024-01-01T08:47:40.782Z - info: Using extension localization@4.0.1
+2024-01-01T08:47:40.783Z - info: Using extension npm@4.0.0
+2024-01-01T08:47:40.788Z - info: Using extension pdf-utils@4.0.2
+2024-01-01T08:47:40.791Z - info: Using extension reports@4.0.0
+2024-01-01T08:47:40.793Z - info: Using extension tags@4.0.1
+2024-01-01T08:47:40.796Z - info: Using extension text@4.0.0
+2024-01-01T08:47:40.797Z - info: Using extension version-control@4.0.0
+2024-01-01T08:47:40.813Z - info: Using extension assets@4.0.2
+2024-01-01T08:47:40.827Z - info: Using extension authorization@4.0.0
+2024-01-01T08:47:40.833Z - info: Using extension browser-client@4.0.0
+2024-01-01T08:47:40.836Z - info: Using extension chrome-pdf@4.0.0
+2024-01-01T08:47:40.840Z - info: Using extension docx@4.1.1
+2024-01-01T08:47:40.842Z - info: Using extension html-to-xlsx@4.0.1
+2024-01-01T08:47:41.312Z - info: html-to-xlsx detected chrome as available html engine
+2024-01-01T08:47:41.312Z - info: Using extension pptx@4.1.0
+2024-01-01T08:47:41.314Z - info: Using extension scheduling@4.0.0
+2024-01-01T08:47:41.348Z - info: Using extension scripts@4.0.0
+2024-01-01T08:47:41.349Z - info: Using extension static-pdf@4.0.0
+2024-01-01T08:47:41.350Z - info: Using extension studio@4.0.2
+2024-01-01T08:47:41.495Z - info: Using extension xlsx@4.0.2
+2024-01-01T08:47:41.498Z - info: Using extension public-templates@4.0.0
+2024-01-01T08:47:41.499Z - info: Using extension sample-template@4.0.0
+2024-01-01T08:47:41.501Z - info: Using extension studio-theme-dark@4.0.0
+2024-01-01T08:47:41.503Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-01-01T08:47:41.503Z - info: Using fs provider for template store.
+2024-01-01T08:47:41.507Z - info: fs store is persisting using fs for C:\Users\Klok\Desktop\CamCyber\NestJS\Minimart\report-v3\data
+2024-01-01T08:47:41.511Z - info: fs store is loading data
+2024-01-01T08:47:41.521Z - info: fs store is initialized successfully
+2024-01-01T08:47:41.531Z - info: Creating default express app.
+2024-01-01T08:47:41.566Z - info: jsreport server successfully started on http port: 5488
+2024-01-01T08:47:41.567Z - info: Verifying license key free
+2024-01-01T08:47:41.568Z - info: Using free license
+2024-01-01T08:47:41.572Z - info: Initializing worker threads
+2024-01-01T08:47:42.383Z - info: 2 worker threads initialized in 811ms
+2024-01-01T08:47:42.385Z - info: Starting temp files cleanup with 180000ms threshold
+2024-01-01T08:47:42.386Z - info: reporter initialized
+2024-01-01T08:47:44.636Z - info: Render request 1 queued for execution and waiting for available worker rootId=ywno7lyc9exaklo, id=ywno7lyc9exaklo
+2024-01-01T08:47:44.736Z - info: Starting rendering request 1 (user: admin) rootId=ywno7lyc9exaklo, id=ywno7lyc9exaklo
+2024-01-01T08:47:44.737Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=ywno7lyc9exaklo, id=ywno7lyc9exaklo
+2024-01-01T08:47:47.052Z - info: Rendering request 1 finished in 2415 ms rootId=ywno7lyc9exaklo, id=ywno7lyc9exaklo
+2024-01-01T08:51:35.339Z - info: Render request 2 queued for execution and waiting for available worker rootId=wcuq59honqx0trw, id=wcuq59honqx0trw
+2024-01-01T08:51:35.390Z - info: Starting rendering request 2 (user: admin) rootId=wcuq59honqx0trw, id=wcuq59honqx0trw
+2024-01-01T08:51:35.390Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=wcuq59honqx0trw, id=wcuq59honqx0trw
+2024-01-01T08:51:36.038Z - info: Rendering request 2 finished in 699 ms rootId=wcuq59honqx0trw, id=wcuq59honqx0trw
+2024-01-01T08:51:39.277Z - info: Render request 3 queued for execution and waiting for available worker rootId=n84jmw0igcqug26, id=n84jmw0igcqug26
+2024-01-01T08:51:39.286Z - info: Starting rendering request 3 (user: admin) rootId=n84jmw0igcqug26, id=n84jmw0igcqug26
+2024-01-01T08:51:39.287Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=n84jmw0igcqug26, id=n84jmw0igcqug26
+2024-01-01T08:51:39.469Z - info: Rendering request 3 finished in 190 ms rootId=n84jmw0igcqug26, id=n84jmw0igcqug26
+2024-01-01T08:51:44.867Z - info: Render request 4 queued for execution and waiting for available worker rootId=wnbngkva7s73jg8, id=wnbngkva7s73jg8
+2024-01-01T08:51:44.879Z - info: Starting rendering request 4 (user: admin) rootId=wnbngkva7s73jg8, id=wnbngkva7s73jg8
+2024-01-01T08:51:44.880Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=wnbngkva7s73jg8, id=wnbngkva7s73jg8
+2024-01-01T08:51:45.030Z - info: Rendering request 4 finished in 163 ms rootId=wnbngkva7s73jg8, id=wnbngkva7s73jg8
+2024-01-01T08:52:50.717Z - info: Render request 5 queued for execution and waiting for available worker rootId=85rbxfeift2less, id=85rbxfeift2less
+2024-01-01T08:52:50.723Z - info: Starting rendering request 5 (user: admin) rootId=85rbxfeift2less, id=85rbxfeift2less
+2024-01-01T08:52:50.723Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=85rbxfeift2less, id=85rbxfeift2less
+2024-01-01T08:52:50.867Z - info: Rendering request 5 finished in 148 ms rootId=85rbxfeift2less, id=85rbxfeift2less
+2024-01-01T08:53:14.854Z - info: Render request 6 queued for execution and waiting for available worker rootId=k0wyv4jjemgkfua, id=k0wyv4jjemgkfua
+2024-01-01T08:53:14.865Z - info: Starting rendering request 6 (user: admin) rootId=k0wyv4jjemgkfua, id=k0wyv4jjemgkfua
+2024-01-01T08:53:14.866Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=k0wyv4jjemgkfua, id=k0wyv4jjemgkfua
+2024-01-01T08:53:15.015Z - info: Rendering request 6 finished in 161 ms rootId=k0wyv4jjemgkfua, id=k0wyv4jjemgkfua
+2024-01-01T08:53:31.638Z - info: Render request 7 queued for execution and waiting for available worker rootId=06nxs1a428aobkc, id=06nxs1a428aobkc
+2024-01-01T08:53:31.649Z - info: Starting rendering request 7 (user: admin) rootId=06nxs1a428aobkc, id=06nxs1a428aobkc
+2024-01-01T08:53:31.650Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=06nxs1a428aobkc, id=06nxs1a428aobkc
+2024-01-01T08:53:31.798Z - info: Rendering request 7 finished in 158 ms rootId=06nxs1a428aobkc, id=06nxs1a428aobkc
+2024-01-01T08:53:51.228Z - info: Render request 8 queued for execution and waiting for available worker rootId=vvgff61c3as3alk, id=vvgff61c3as3alk
+2024-01-01T08:53:51.240Z - info: Starting rendering request 8 (user: admin) rootId=vvgff61c3as3alk, id=vvgff61c3as3alk
+2024-01-01T08:53:51.240Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=vvgff61c3as3alk, id=vvgff61c3as3alk
+2024-01-01T08:53:51.387Z - info: Rendering request 8 finished in 159 ms rootId=vvgff61c3as3alk, id=vvgff61c3as3alk
+2024-01-01T08:59:39.108Z - info: Render request 9 queued for execution and waiting for available worker rootId=lwei2sc5puhyqwj, id=lwei2sc5puhyqwj
+2024-01-01T08:59:39.115Z - info: Starting rendering request 9 (user: admin) rootId=lwei2sc5puhyqwj, id=lwei2sc5puhyqwj
+2024-01-01T08:59:39.116Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=lwei2sc5puhyqwj, id=lwei2sc5puhyqwj
+2024-01-01T08:59:39.310Z - info: Rendering request 9 finished in 203 ms rootId=lwei2sc5puhyqwj, id=lwei2sc5puhyqwj
+2026-06-09T03:24:23.333Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 22.22.3)
+2026-06-09T03:24:23.334Z - info: Searching for available extensions in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T03:24:23.336Z - info: Extensions location cache not found, crawling directories
+2026-06-09T03:24:23.430Z - info: Found 35 extension(s)
+2026-06-09T03:24:23.465Z - info: Using extension authentication@4.0.1
+2026-06-09T03:24:23.537Z - info: Using extension base@4.0.0
+2026-06-09T03:24:23.540Z - info: Using extension child-templates@4.0.0
+2026-06-09T03:24:23.541Z - info: Using extension cli@4.0.2
+2026-06-09T03:24:23.542Z - info: Using extension components@4.0.0
+2026-06-09T03:24:23.543Z - info: Using extension data@4.0.0
+2026-06-09T03:24:23.543Z - info: Using extension express@4.0.1
+2026-06-09T03:24:23.616Z - info: Using extension freeze@4.0.0
+2026-06-09T03:24:23.616Z - info: Using extension fs-store@4.0.1
+2026-06-09T03:24:23.646Z - info: Using extension handlebars@4.0.1
+2026-06-09T03:24:23.646Z - info: Using extension import-export@4.0.2
+2026-06-09T03:24:23.652Z - info: Using extension jsrender@4.0.0
+2026-06-09T03:24:23.653Z - info: Using extension licensing@4.0.1
+2026-06-09T03:24:23.659Z - info: Using extension localization@4.0.1
+2026-06-09T03:24:23.660Z - info: Using extension npm@4.0.0
+2026-06-09T03:24:23.661Z - info: Using extension pdf-utils@4.0.2
+2026-06-09T03:24:23.662Z - info: Using extension reports@4.0.0
+2026-06-09T03:24:23.663Z - info: Using extension tags@4.0.1
+2026-06-09T03:24:23.663Z - info: Using extension text@4.0.0
+2026-06-09T03:24:23.663Z - info: Using extension version-control@4.0.0
+2026-06-09T03:24:23.668Z - info: Using extension assets@4.0.2
+2026-06-09T03:24:23.672Z - info: Using extension authorization@4.0.0
+2026-06-09T03:24:23.673Z - info: Using extension browser-client@4.0.0
+2026-06-09T03:24:23.675Z - info: Using extension chrome-pdf@4.0.0
+2026-06-09T03:24:23.677Z - info: Using extension docx@4.1.1
+2026-06-09T03:24:23.677Z - info: Using extension html-to-xlsx@4.0.1
+2026-06-09T03:24:23.778Z - info: html-to-xlsx detected chrome as available html engine
+2026-06-09T03:24:23.779Z - info: Using extension pptx@4.1.0
+2026-06-09T03:24:23.780Z - info: Using extension scheduling@4.0.0
+2026-06-09T03:24:23.793Z - info: Using extension scripts@4.0.0
+2026-06-09T03:24:23.793Z - info: Using extension static-pdf@4.0.0
+2026-06-09T03:24:23.794Z - info: Using extension studio@4.0.2
+2026-06-09T03:24:23.829Z - info: Using extension xlsx@4.0.2
+2026-06-09T03:24:23.830Z - info: Using extension public-templates@4.0.0
+2026-06-09T03:24:23.831Z - info: Using extension sample-template@4.0.0
+2026-06-09T03:24:23.832Z - info: Using extension studio-theme-dark@4.0.0
+2026-06-09T03:24:23.832Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-06-09T03:24:23.832Z - info: Using fs provider for template store.
+2026-06-09T03:24:23.835Z - info: fs store is persisting using fs for /home/soksim/Documents/POS/Posv2/report-v3/data
+2026-06-09T03:24:23.837Z - info: fs store is loading data
+2026-06-09T03:24:23.842Z - info: fs store is initialized successfully
+2026-06-09T03:24:23.848Z - info: Creating default express app.
+2026-06-09T03:24:23.858Z - info: jsreport server successfully started on http port: 5488
+2026-06-09T03:24:23.858Z - info: Verifying license key free
+2026-06-09T03:24:23.859Z - info: Using free license
+2026-06-09T03:24:23.861Z - info: Initializing worker threads
+2026-06-09T03:24:24.229Z - error: Error occurred during reporter init: TypeError: Accessor not expected at intrinsics.%IteratorPrototype%.constructor
+  at isAllowedProperty (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/ses/index.js:4029:13)
+  at visitProperties (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/ses/index.js:4076:26)
+  at isAllowedPropertyValue (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/ses/index.js:3963:7)
+  at isAllowedProperty (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/ses/index.js:4026:14)
+  at visitProperties (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/ses/index.js:4076:26)
+  at whitelistIntrinsics (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/ses/index.js:4119:3)
+  at repairIntrinsics (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/ses/index.js:9808:3)
+  at globalThis.lockdown (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/ses/index.js:9897:28)
+  at WorkerReporter.init (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:88:7)
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17)
+2026-06-09T03:27:19.234Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-06-09T03:27:19.235Z - info: Searching for available extensions in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T03:27:19.240Z - info: Extensions location cache /tmp/jsreport/core/locations.json contains older information, crawling
+2026-06-09T03:27:19.333Z - info: Found 35 extension(s)
+2026-06-09T03:27:19.373Z - info: Using extension authentication@4.0.1
+2026-06-09T03:27:19.422Z - info: Using extension base@4.0.0
+2026-06-09T03:27:19.424Z - info: Using extension child-templates@4.0.0
+2026-06-09T03:27:19.425Z - info: Using extension cli@4.0.2
+2026-06-09T03:27:19.426Z - info: Using extension components@4.0.0
+2026-06-09T03:27:19.426Z - info: Using extension data@4.0.0
+2026-06-09T03:27:19.427Z - info: Using extension express@4.0.1
+2026-06-09T03:27:19.494Z - info: Using extension freeze@4.0.0
+2026-06-09T03:27:19.495Z - info: Using extension fs-store@4.0.1
+2026-06-09T03:27:19.526Z - info: Using extension handlebars@4.0.1
+2026-06-09T03:27:19.526Z - info: Using extension import-export@4.0.2
+2026-06-09T03:27:19.529Z - info: Using extension jsrender@4.0.0
+2026-06-09T03:27:19.530Z - info: Using extension licensing@4.0.1
+2026-06-09T03:27:19.537Z - info: Using extension localization@4.0.1
+2026-06-09T03:27:19.537Z - info: Using extension npm@4.0.0
+2026-06-09T03:27:19.539Z - info: Using extension pdf-utils@4.0.2
+2026-06-09T03:27:19.540Z - info: Using extension reports@4.0.0
+2026-06-09T03:27:19.541Z - info: Using extension tags@4.0.1
+2026-06-09T03:27:19.542Z - info: Using extension text@4.0.0
+2026-06-09T03:27:19.542Z - info: Using extension version-control@4.0.0
+2026-06-09T03:27:19.546Z - info: Using extension assets@4.0.2
+2026-06-09T03:27:19.550Z - info: Using extension authorization@4.0.0
+2026-06-09T03:27:19.551Z - info: Using extension browser-client@4.0.0
+2026-06-09T03:27:19.555Z - info: Using extension chrome-pdf@4.0.0
+2026-06-09T03:27:19.557Z - info: Using extension docx@4.1.1
+2026-06-09T03:27:19.558Z - info: Using extension html-to-xlsx@4.0.1
+2026-06-09T03:27:19.656Z - info: html-to-xlsx detected chrome as available html engine
+2026-06-09T03:27:19.656Z - info: Using extension pptx@4.1.0
+2026-06-09T03:27:19.657Z - info: Using extension scheduling@4.0.0
+2026-06-09T03:27:19.670Z - info: Using extension scripts@4.0.0
+2026-06-09T03:27:19.671Z - info: Using extension static-pdf@4.0.0
+2026-06-09T03:27:19.671Z - info: Using extension studio@4.0.2
+2026-06-09T03:27:19.705Z - info: Using extension xlsx@4.0.2
+2026-06-09T03:27:19.706Z - info: Using extension public-templates@4.0.0
+2026-06-09T03:27:19.707Z - info: Using extension sample-template@4.0.0
+2026-06-09T03:27:19.707Z - info: Using extension studio-theme-dark@4.0.0
+2026-06-09T03:27:19.708Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-06-09T03:27:19.708Z - info: Using fs provider for template store.
+2026-06-09T03:27:19.711Z - info: fs store is persisting using fs for /home/soksim/Documents/POS/Posv2/report-v3/data
+2026-06-09T03:27:19.714Z - info: fs store is loading data
+2026-06-09T03:27:19.732Z - info: fs store is initialized successfully
+2026-06-09T03:27:19.742Z - info: Creating default express app.
+2026-06-09T03:27:19.752Z - info: jsreport server successfully started on http port: 5488
+2026-06-09T03:27:19.753Z - info: Verifying license key free
+2026-06-09T03:27:19.753Z - info: Using free license
+2026-06-09T03:27:19.756Z - info: Initializing worker threads
+2026-06-09T03:27:20.136Z - info: 2 worker threads initialized in 380ms
+2026-06-09T03:27:20.136Z - info: Starting temp files cleanup with 180000ms threshold
+2026-06-09T03:27:20.136Z - info: reporter initialized
+2026-06-09T03:28:19.842Z - info: Logging in user admin
+2026-06-09T03:41:38.977Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-06-09T03:41:38.979Z - info: Searching for available extensions in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T03:41:38.984Z - info: Extensions location cache contains up to date information, skipping crawling in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T03:41:38.986Z - info: Found 35 extension(s)
+2026-06-09T03:41:39.025Z - info: Using extension authentication@4.0.1
+2026-06-09T03:41:39.104Z - info: Using extension base@4.0.0
+2026-06-09T03:41:39.106Z - info: Using extension child-templates@4.0.0
+2026-06-09T03:41:39.107Z - info: Using extension cli@4.0.2
+2026-06-09T03:41:39.108Z - info: Using extension components@4.0.0
+2026-06-09T03:41:39.109Z - info: Using extension data@4.0.0
+2026-06-09T03:41:39.110Z - info: Using extension express@4.0.1
+2026-06-09T03:41:39.233Z - info: Using extension freeze@4.0.0
+2026-06-09T03:41:39.234Z - info: Using extension fs-store@4.0.1
+2026-06-09T03:41:39.285Z - info: Using extension handlebars@4.0.1
+2026-06-09T03:41:39.286Z - info: Using extension import-export@4.0.2
+2026-06-09T03:41:39.291Z - info: Using extension jsrender@4.0.0
+2026-06-09T03:41:39.292Z - info: Using extension licensing@4.0.1
+2026-06-09T03:41:39.303Z - info: Using extension localization@4.0.1
+2026-06-09T03:41:39.304Z - info: Using extension npm@4.0.0
+2026-06-09T03:41:39.306Z - info: Using extension pdf-utils@4.0.2
+2026-06-09T03:41:39.307Z - info: Using extension reports@4.0.0
+2026-06-09T03:41:39.309Z - info: Using extension tags@4.0.1
+2026-06-09T03:41:39.309Z - info: Using extension text@4.0.0
+2026-06-09T03:41:39.310Z - info: Using extension version-control@4.0.0
+2026-06-09T03:41:39.316Z - info: Using extension assets@4.0.2
+2026-06-09T03:41:39.321Z - info: Using extension authorization@4.0.0
+2026-06-09T03:41:39.323Z - info: Using extension browser-client@4.0.0
+2026-06-09T03:41:39.325Z - info: Using extension chrome-pdf@4.0.0
+2026-06-09T03:41:39.327Z - info: Using extension docx@4.1.1
+2026-06-09T03:41:39.328Z - info: Using extension html-to-xlsx@4.0.1
+2026-06-09T03:41:39.438Z - info: html-to-xlsx detected chrome as available html engine
+2026-06-09T03:41:39.439Z - info: Using extension pptx@4.1.0
+2026-06-09T03:41:39.440Z - info: Using extension scheduling@4.0.0
+2026-06-09T03:41:39.459Z - info: Using extension scripts@4.0.0
+2026-06-09T03:41:39.460Z - info: Using extension static-pdf@4.0.0
+2026-06-09T03:41:39.460Z - info: Using extension studio@4.0.2
+2026-06-09T03:41:39.510Z - info: Using extension xlsx@4.0.2
+2026-06-09T03:41:39.511Z - info: Using extension public-templates@4.0.0
+2026-06-09T03:41:39.512Z - info: Using extension sample-template@4.0.0
+2026-06-09T03:41:39.513Z - info: Using extension studio-theme-dark@4.0.0
+2026-06-09T03:41:39.514Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-06-09T03:41:39.514Z - info: Using fs provider for template store.
+2026-06-09T03:41:39.517Z - info: fs store is persisting using fs for /home/soksim/Documents/POS/Posv2/report-v3/data
+2026-06-09T03:41:39.520Z - info: fs store is loading data
+2026-06-09T03:41:39.534Z - info: fs store is initialized successfully
+2026-06-09T03:41:39.541Z - info: Creating default express app.
+2026-06-09T03:41:39.558Z - info: jsreport server successfully started on http port: 5488
+2026-06-09T03:41:39.559Z - info: Verifying license key free
+2026-06-09T03:41:39.559Z - info: Using free license
+2026-06-09T03:41:39.562Z - info: Initializing worker threads
+2026-06-09T03:41:40.023Z - info: 2 worker threads initialized in 461ms
+2026-06-09T03:41:40.023Z - info: Starting temp files cleanup with 180000ms threshold
+2026-06-09T03:41:40.024Z - info: reporter initialized
+2026-06-09T03:45:49.109Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-06-09T03:45:49.111Z - info: Searching for available extensions in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T03:45:49.116Z - info: Extensions location cache contains up to date information, skipping crawling in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T03:45:49.119Z - info: Found 35 extension(s)
+2026-06-09T03:45:49.156Z - info: Using extension authentication@4.0.1
+2026-06-09T03:45:49.232Z - info: Using extension base@4.0.0
+2026-06-09T03:45:49.234Z - info: Using extension child-templates@4.0.0
+2026-06-09T03:45:49.235Z - info: Using extension cli@4.0.2
+2026-06-09T03:45:49.236Z - info: Using extension components@4.0.0
+2026-06-09T03:45:49.237Z - info: Using extension data@4.0.0
+2026-06-09T03:45:49.237Z - info: Using extension express@4.0.1
+2026-06-09T03:45:49.323Z - info: Using extension freeze@4.0.0
+2026-06-09T03:45:49.324Z - info: Using extension fs-store@4.0.1
+2026-06-09T03:45:49.355Z - info: Using extension handlebars@4.0.1
+2026-06-09T03:45:49.356Z - info: Using extension import-export@4.0.2
+2026-06-09T03:45:49.359Z - info: Using extension jsrender@4.0.0
+2026-06-09T03:45:49.359Z - info: Using extension licensing@4.0.1
+2026-06-09T03:45:49.369Z - info: Using extension localization@4.0.1
+2026-06-09T03:45:49.369Z - info: Using extension npm@4.0.0
+2026-06-09T03:45:49.371Z - info: Using extension pdf-utils@4.0.2
+2026-06-09T03:45:49.372Z - info: Using extension reports@4.0.0
+2026-06-09T03:45:49.374Z - info: Using extension tags@4.0.1
+2026-06-09T03:45:49.374Z - info: Using extension text@4.0.0
+2026-06-09T03:45:49.375Z - info: Using extension version-control@4.0.0
+2026-06-09T03:45:49.381Z - info: Using extension assets@4.0.2
+2026-06-09T03:45:49.386Z - info: Using extension authorization@4.0.0
+2026-06-09T03:45:49.388Z - info: Using extension browser-client@4.0.0
+2026-06-09T03:45:49.389Z - info: Using extension chrome-pdf@4.0.0
+2026-06-09T03:45:49.392Z - info: Using extension docx@4.1.1
+2026-06-09T03:45:49.393Z - info: Using extension html-to-xlsx@4.0.1
+2026-06-09T03:45:49.524Z - info: html-to-xlsx detected chrome as available html engine
+2026-06-09T03:45:49.524Z - info: Using extension pptx@4.1.0
+2026-06-09T03:45:49.525Z - info: Using extension scheduling@4.0.0
+2026-06-09T03:45:49.545Z - info: Using extension scripts@4.0.0
+2026-06-09T03:45:49.546Z - info: Using extension static-pdf@4.0.0
+2026-06-09T03:45:49.547Z - info: Using extension studio@4.0.2
+2026-06-09T03:45:49.644Z - info: Using extension xlsx@4.0.2
+2026-06-09T03:45:49.645Z - info: Using extension public-templates@4.0.0
+2026-06-09T03:45:49.645Z - info: Using extension sample-template@4.0.0
+2026-06-09T03:45:49.646Z - info: Using extension studio-theme-dark@4.0.0
+2026-06-09T03:45:49.647Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-06-09T03:45:49.647Z - info: Using fs provider for template store.
+2026-06-09T03:45:49.650Z - info: fs store is persisting using fs for /home/soksim/Documents/POS/Posv2/report-v3/data
+2026-06-09T03:45:49.653Z - info: fs store is loading data
+2026-06-09T03:45:49.667Z - info: fs store is initialized successfully
+2026-06-09T03:45:49.674Z - info: Creating default express app.
+2026-06-09T03:45:49.693Z - info: jsreport server successfully started on http port: 5488
+2026-06-09T03:45:49.694Z - info: Verifying license key free
+2026-06-09T03:45:49.695Z - info: Using free license
+2026-06-09T03:45:49.699Z - info: Initializing worker threads
+2026-06-09T03:45:50.129Z - info: 2 worker threads initialized in 430ms
+2026-06-09T03:45:50.129Z - info: Starting temp files cleanup with 180000ms threshold
+2026-06-09T03:45:50.130Z - info: reporter initialized
+2026-06-09T04:05:36.428Z - info: Render request 1 queued for execution and waiting for available worker rootId=346nyt91sey9wdi, id=346nyt91sey9wdi
+2026-06-09T04:05:36.550Z - info: Starting rendering request 1 (user: admin) rootId=346nyt91sey9wdi, id=346nyt91sey9wdi
+2026-06-09T04:05:36.550Z - warn: Error when processing render request 1
+(because) unable to find specified template (/report_product/pdf/main)
+Error: Unable to find specified template (/report_product/pdf/main)
+  at module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:51:28)
+  at async ListenerCollection.fire (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+  at async beforeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=346nyt91sey9wdi, id=346nyt91sey9wdi
+2026-06-09T04:05:36.550Z - warn: Rendering request 1 finished with error in 129 ms rootId=346nyt91sey9wdi, id=346nyt91sey9wdi
+2026-06-09T04:05:36.552Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-06-09T04:08:41.967Z - info: Render request 2 queued for execution and waiting for available worker rootId=vtr9loe1oh8mwck, id=vtr9loe1oh8mwck
+2026-06-09T04:08:42.071Z - info: Starting rendering request 2 (user: admin) rootId=vtr9loe1oh8mwck, id=vtr9loe1oh8mwck
+2026-06-09T04:08:42.071Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=vtr9loe1oh8mwck, id=vtr9loe1oh8mwck
+2026-06-09T04:08:42.541Z - error: Error when processing render request 2
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: /home/soksim/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: /home/soksim/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:79:28)
+  at async createBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+  at async allocateBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+  at async getBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+  at async module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+  at async execute (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:73:20
+  at async invokeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:94:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:142:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=vtr9loe1oh8mwck, id=vtr9loe1oh8mwck
+2026-06-09T04:08:42.541Z - error: Rendering request 2 finished with error in 575 ms rootId=vtr9loe1oh8mwck, id=vtr9loe1oh8mwck
+2026-06-09T04:08:42.541Z - error: Error during processing request at http://localhost:5488/api/report
+2026-06-09T04:08:54.408Z - info: Render request 3 queued for execution and waiting for available worker rootId=kqprji98lt5sk8j, id=kqprji98lt5sk8j
+2026-06-09T04:08:54.421Z - info: Starting rendering request 3 (user: admin) rootId=kqprji98lt5sk8j, id=kqprji98lt5sk8j
+2026-06-09T04:08:54.421Z - warn: Error when processing render request 3
+(because) unable to find specified template (/report_sale/excel/sale-excel)
+Error: Unable to find specified template (/report_sale/excel/sale-excel)
+  at module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:51:28)
+  at async ListenerCollection.fire (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+  at async beforeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=kqprji98lt5sk8j, id=kqprji98lt5sk8j
+2026-06-09T04:08:54.422Z - warn: Rendering request 3 finished with error in 13 ms rootId=kqprji98lt5sk8j, id=kqprji98lt5sk8j
+2026-06-09T04:08:54.423Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-06-09T04:08:57.931Z - info: Render request 4 queued for execution and waiting for available worker rootId=dujpczvm5vdpfkg, id=dujpczvm5vdpfkg
+2026-06-09T04:08:57.940Z - info: Starting rendering request 4 (user: admin) rootId=dujpczvm5vdpfkg, id=dujpczvm5vdpfkg
+2026-06-09T04:08:57.940Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=dujpczvm5vdpfkg, id=dujpczvm5vdpfkg
+2026-06-09T04:09:02.944Z - info: Render request 5 queued for execution and waiting for available worker rootId=ixk2uyhzdza37ln, id=ixk2uyhzdza37ln
+2026-06-09T04:09:02.964Z - info: Starting rendering request 5 (user: admin) rootId=ixk2uyhzdza37ln, id=ixk2uyhzdza37ln
+2026-06-09T04:09:02.965Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=ixk2uyhzdza37ln, id=ixk2uyhzdza37ln
+2026-06-09T04:09:03.367Z - error: Error when processing render request 5
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: /home/soksim/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: /home/soksim/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:79:28)
+  at async createBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+  at async allocateBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+  at async getBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+  at async module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+  at async execute (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:73:20
+  at async invokeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:94:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:142:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=ixk2uyhzdza37ln, id=ixk2uyhzdza37ln
+2026-06-09T04:09:03.367Z - error: Rendering request 5 finished with error in 423 ms rootId=ixk2uyhzdza37ln, id=ixk2uyhzdza37ln
+2026-06-09T04:09:03.368Z - error: Error during processing request at http://localhost:5488/api/report
+2026-06-09T04:09:15.609Z - info: Render request 6 queued for execution and waiting for available worker rootId=fvceuyfjgflusmc, id=fvceuyfjgflusmc
+2026-06-09T04:09:15.622Z - info: Starting rendering request 6 (user: admin) rootId=fvceuyfjgflusmc, id=fvceuyfjgflusmc
+2026-06-09T04:09:15.623Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=fvceuyfjgflusmc, id=fvceuyfjgflusmc
+2026-06-09T04:09:20.621Z - info: Render request 7 queued for execution and waiting for available worker rootId=plssw0jjf0z72e5, id=plssw0jjf0z72e5
+2026-06-09T04:09:59.938Z - warn: Report render failed
+(because) report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/aDHFB41RxEwV7ZFG
+Error: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/aDHFB41RxEwV7ZFG
+    at Timeout.<anonymous> (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/threadWorker.js:43:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) rootId=dujpczvm5vdpfkg, id=dujpczvm5vdpfkg
+2026-06-09T04:10:00.525Z - warn: Error during processing request at http://localhost:5488/api/report, details: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/aDHFB41RxEwV7ZFG, stack: Error: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/aDHFB41RxEwV7ZFG
+    at Timeout.<anonymous> (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/threadWorker.js:43:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-06-09T04:10:00.558Z - info: Starting rendering request 7 (user: admin) rootId=plssw0jjf0z72e5, id=plssw0jjf0z72e5
+2026-06-09T04:10:00.558Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=plssw0jjf0z72e5, id=plssw0jjf0z72e5
+2026-06-09T04:10:00.756Z - error: Error when processing render request 7
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: /home/soksim/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: /home/soksim/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:79:28)
+  at async createBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+  at async allocateBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+  at async getBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+  at async module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+  at async execute (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:73:20
+  at async invokeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:94:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:142:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=plssw0jjf0z72e5, id=plssw0jjf0z72e5
+2026-06-09T04:10:00.756Z - error: Rendering request 7 finished with error in 40136 ms rootId=plssw0jjf0z72e5, id=plssw0jjf0z72e5
+2026-06-09T04:10:00.757Z - error: Error during processing request at http://localhost:5488/api/report
+2026-06-09T04:10:02.277Z - info: Render request 8 queued for execution and waiting for available worker rootId=rvqp8f22y8lz7ww, id=rvqp8f22y8lz7ww
+2026-06-09T04:10:02.288Z - info: Starting rendering request 8 (user: admin) rootId=rvqp8f22y8lz7ww, id=rvqp8f22y8lz7ww
+2026-06-09T04:10:02.288Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=rvqp8f22y8lz7ww, id=rvqp8f22y8lz7ww
+2026-06-09T04:10:07.287Z - info: Render request 9 queued for execution and waiting for available worker rootId=cftzmk2afk9v4vk, id=cftzmk2afk9v4vk
+2026-06-09T04:10:17.614Z - warn: Report render failed
+(because) report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/c4uyx1aIqW1PtIg1
+Error: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/c4uyx1aIqW1PtIg1
+    at Timeout.<anonymous> (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/threadWorker.js:43:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) rootId=fvceuyfjgflusmc, id=fvceuyfjgflusmc
+2026-06-09T04:10:17.991Z - warn: Error during processing request at http://localhost:5488/api/report, details: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/c4uyx1aIqW1PtIg1, stack: Error: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/c4uyx1aIqW1PtIg1
+    at Timeout.<anonymous> (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/threadWorker.js:43:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-06-09T04:10:18.012Z - info: Starting rendering request 9 (user: admin) rootId=cftzmk2afk9v4vk, id=cftzmk2afk9v4vk
+2026-06-09T04:10:18.012Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=cftzmk2afk9v4vk, id=cftzmk2afk9v4vk
+2026-06-09T04:10:18.217Z - error: Error when processing render request 9
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: /home/soksim/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: /home/soksim/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:79:28)
+  at async createBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+  at async allocateBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+  at async getBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+  at async module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+  at async execute (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:73:20
+  at async invokeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:94:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:142:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=cftzmk2afk9v4vk, id=cftzmk2afk9v4vk
+2026-06-09T04:10:18.217Z - error: Rendering request 9 finished with error in 10933 ms rootId=cftzmk2afk9v4vk, id=cftzmk2afk9v4vk
+2026-06-09T04:10:18.218Z - error: Error during processing request at http://localhost:5488/api/report
+2026-06-09T04:10:21.227Z - info: Render request 10 queued for execution and waiting for available worker rootId=g8r7xxng9wh5s7h, id=g8r7xxng9wh5s7h
+2026-06-09T04:10:21.234Z - info: Starting rendering request 10 (user: admin) rootId=g8r7xxng9wh5s7h, id=g8r7xxng9wh5s7h
+2026-06-09T04:10:21.235Z - warn: Error when processing render request 10
+(because) unable to find specified template (/report_sale/excel/sale-excel)
+Error: Unable to find specified template (/report_sale/excel/sale-excel)
+  at module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:51:28)
+  at async ListenerCollection.fire (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+  at async beforeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=g8r7xxng9wh5s7h, id=g8r7xxng9wh5s7h
+2026-06-09T04:10:21.235Z - warn: Rendering request 10 finished with error in 8 ms rootId=g8r7xxng9wh5s7h, id=g8r7xxng9wh5s7h
+2026-06-09T04:10:21.236Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-06-09T04:11:04.282Z - warn: Report render failed
+(because) report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/5Ob46LL6bd4JIleR
+Error: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/5Ob46LL6bd4JIleR
+    at Timeout.<anonymous> (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/threadWorker.js:43:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) rootId=rvqp8f22y8lz7ww, id=rvqp8f22y8lz7ww
+2026-06-09T04:11:04.696Z - warn: Error during processing request at http://localhost:5488/api/report, details: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/5Ob46LL6bd4JIleR, stack: Error: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/5Ob46LL6bd4JIleR
+    at Timeout.<anonymous> (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/threadWorker.js:43:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2026-06-09T04:12:07.252Z - info: Render request 11 queued for execution and waiting for available worker rootId=xxphy1dwsz3b7xp, id=xxphy1dwsz3b7xp
+2026-06-09T04:12:07.337Z - info: Starting rendering request 11 (user: admin) rootId=xxphy1dwsz3b7xp, id=xxphy1dwsz3b7xp
+2026-06-09T04:12:07.339Z - warn: Error when processing render request 11
+(because) unable to find specified template (/report_product/pdf/main)
+Error: Unable to find specified template (/report_product/pdf/main)
+  at module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:51:28)
+  at async ListenerCollection.fire (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+  at async beforeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=xxphy1dwsz3b7xp, id=xxphy1dwsz3b7xp
+2026-06-09T04:12:07.339Z - warn: Rendering request 11 finished with error in 85 ms rootId=xxphy1dwsz3b7xp, id=xxphy1dwsz3b7xp
+2026-06-09T04:12:07.340Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-06-09T04:15:29.404Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-06-09T04:15:29.405Z - info: Searching for available extensions in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T04:15:29.410Z - info: Extensions location cache contains up to date information, skipping crawling in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T04:15:29.413Z - info: Found 35 extension(s)
+2026-06-09T04:15:29.457Z - info: Using extension authentication@4.0.1
+2026-06-09T04:15:29.548Z - info: Using extension base@4.0.0
+2026-06-09T04:15:29.550Z - info: Using extension child-templates@4.0.0
+2026-06-09T04:15:29.551Z - info: Using extension cli@4.0.2
+2026-06-09T04:15:29.553Z - info: Using extension components@4.0.0
+2026-06-09T04:15:29.553Z - info: Using extension data@4.0.0
+2026-06-09T04:15:29.554Z - info: Using extension express@4.0.1
+2026-06-09T04:15:29.689Z - info: Using extension freeze@4.0.0
+2026-06-09T04:15:29.690Z - info: Using extension fs-store@4.0.1
+2026-06-09T04:15:29.744Z - info: Using extension handlebars@4.0.1
+2026-06-09T04:15:29.745Z - info: Using extension import-export@4.0.2
+2026-06-09T04:15:29.750Z - info: Using extension jsrender@4.0.0
+2026-06-09T04:15:29.751Z - info: Using extension licensing@4.0.1
+2026-06-09T04:15:29.763Z - info: Using extension localization@4.0.1
+2026-06-09T04:15:29.764Z - info: Using extension npm@4.0.0
+2026-06-09T04:15:29.766Z - info: Using extension pdf-utils@4.0.2
+2026-06-09T04:15:29.767Z - info: Using extension reports@4.0.0
+2026-06-09T04:15:29.768Z - info: Using extension tags@4.0.1
+2026-06-09T04:15:29.769Z - info: Using extension text@4.0.0
+2026-06-09T04:15:29.770Z - info: Using extension version-control@4.0.0
+2026-06-09T04:15:29.777Z - info: Using extension assets@4.0.2
+2026-06-09T04:15:29.783Z - info: Using extension authorization@4.0.0
+2026-06-09T04:15:29.785Z - info: Using extension browser-client@4.0.0
+2026-06-09T04:15:29.788Z - info: Using extension chrome-pdf@4.0.0
+2026-06-09T04:15:29.791Z - info: Using extension docx@4.1.1
+2026-06-09T04:15:29.793Z - info: Using extension html-to-xlsx@4.0.1
+2026-06-09T04:15:29.945Z - info: html-to-xlsx detected chrome as available html engine
+2026-06-09T04:15:29.945Z - info: Using extension pptx@4.1.0
+2026-06-09T04:15:29.946Z - info: Using extension scheduling@4.0.0
+2026-06-09T04:15:29.966Z - info: Using extension scripts@4.0.0
+2026-06-09T04:15:29.967Z - info: Using extension static-pdf@4.0.0
+2026-06-09T04:15:29.968Z - info: Using extension studio@4.0.2
+2026-06-09T04:15:30.026Z - info: Using extension xlsx@4.0.2
+2026-06-09T04:15:30.027Z - info: Using extension public-templates@4.0.0
+2026-06-09T04:15:30.029Z - info: Using extension sample-template@4.0.0
+2026-06-09T04:15:30.030Z - info: Using extension studio-theme-dark@4.0.0
+2026-06-09T04:15:30.031Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-06-09T04:15:30.031Z - info: Using fs provider for template store.
+2026-06-09T04:15:30.034Z - info: fs store is persisting using fs for /home/soksim/Documents/POS/Posv2/report-v3/data
+2026-06-09T04:15:30.038Z - info: fs store is loading data
+2026-06-09T04:15:30.054Z - info: fs store is initialized successfully
+2026-06-09T04:15:30.062Z - info: Creating default express app.
+2026-06-09T04:15:30.080Z - info: jsreport server successfully started on http port: 5488
+2026-06-09T04:15:30.080Z - info: Verifying license key free
+2026-06-09T04:15:30.081Z - info: Using free license
+2026-06-09T04:15:30.083Z - info: Initializing worker threads
+2026-06-09T04:15:30.502Z - info: 2 worker threads initialized in 419ms
+2026-06-09T04:15:30.503Z - info: Starting temp files cleanup with 180000ms threshold
+2026-06-09T04:15:30.503Z - info: reporter initialized
+2026-06-09T04:15:59.732Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-06-09T04:15:59.734Z - info: Searching for available extensions in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T04:15:59.739Z - info: Extensions location cache contains up to date information, skipping crawling in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T04:15:59.742Z - info: Found 35 extension(s)
+2026-06-09T04:15:59.781Z - info: Using extension authentication@4.0.1
+2026-06-09T04:15:59.857Z - info: Using extension base@4.0.0
+2026-06-09T04:15:59.859Z - info: Using extension child-templates@4.0.0
+2026-06-09T04:15:59.859Z - info: Using extension cli@4.0.2
+2026-06-09T04:15:59.861Z - info: Using extension components@4.0.0
+2026-06-09T04:15:59.861Z - info: Using extension data@4.0.0
+2026-06-09T04:15:59.862Z - info: Using extension express@4.0.1
+2026-06-09T04:15:59.975Z - info: Using extension freeze@4.0.0
+2026-06-09T04:15:59.976Z - info: Using extension fs-store@4.0.1
+2026-06-09T04:16:00.023Z - info: Using extension handlebars@4.0.1
+2026-06-09T04:16:00.024Z - info: Using extension import-export@4.0.2
+2026-06-09T04:16:00.028Z - info: Using extension jsrender@4.0.0
+2026-06-09T04:16:00.029Z - info: Using extension licensing@4.0.1
+2026-06-09T04:16:00.039Z - info: Using extension localization@4.0.1
+2026-06-09T04:16:00.040Z - info: Using extension npm@4.0.0
+2026-06-09T04:16:00.042Z - info: Using extension pdf-utils@4.0.2
+2026-06-09T04:16:00.043Z - info: Using extension reports@4.0.0
+2026-06-09T04:16:00.045Z - info: Using extension tags@4.0.1
+2026-06-09T04:16:00.045Z - info: Using extension text@4.0.0
+2026-06-09T04:16:00.046Z - info: Using extension version-control@4.0.0
+2026-06-09T04:16:00.052Z - info: Using extension assets@4.0.2
+2026-06-09T04:16:00.056Z - info: Using extension authorization@4.0.0
+2026-06-09T04:16:00.059Z - info: Using extension browser-client@4.0.0
+2026-06-09T04:16:00.060Z - info: Using extension chrome-pdf@4.0.0
+2026-06-09T04:16:00.062Z - info: Using extension docx@4.1.1
+2026-06-09T04:16:00.063Z - info: Using extension html-to-xlsx@4.0.1
+2026-06-09T04:16:00.164Z - info: html-to-xlsx detected chrome as available html engine
+2026-06-09T04:16:00.164Z - info: Using extension pptx@4.1.0
+2026-06-09T04:16:00.166Z - info: Using extension scheduling@4.0.0
+2026-06-09T04:16:00.188Z - info: Using extension scripts@4.0.0
+2026-06-09T04:16:00.189Z - info: Using extension static-pdf@4.0.0
+2026-06-09T04:16:00.189Z - info: Using extension studio@4.0.2
+2026-06-09T04:16:00.246Z - info: Using extension xlsx@4.0.2
+2026-06-09T04:16:00.247Z - info: Using extension public-templates@4.0.0
+2026-06-09T04:16:00.248Z - info: Using extension sample-template@4.0.0
+2026-06-09T04:16:00.249Z - info: Using extension studio-theme-dark@4.0.0
+2026-06-09T04:16:00.250Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-06-09T04:16:00.250Z - info: Using fs provider for template store.
+2026-06-09T04:16:00.253Z - info: fs store is persisting using fs for /home/soksim/Documents/POS/Posv2/report-v3/data
+2026-06-09T04:16:00.256Z - info: fs store is loading data
+2026-06-09T04:16:00.270Z - info: fs store is initialized successfully
+2026-06-09T04:16:00.278Z - info: Creating default express app.
+2026-06-09T04:16:00.289Z - info: jsreport server successfully started on http port: 5488
+2026-06-09T04:16:00.289Z - info: Verifying license key free
+2026-06-09T04:16:00.290Z - info: Using free license
+2026-06-09T04:16:00.292Z - info: Initializing worker threads
+2026-06-09T04:16:00.701Z - info: 2 worker threads initialized in 408ms
+2026-06-09T04:16:00.701Z - info: Starting temp files cleanup with 180000ms threshold
+2026-06-09T04:16:00.701Z - info: reporter initialized
+2026-06-09T04:16:36.188Z - info: Render request 1 queued for execution and waiting for available worker rootId=lsv8miu0aa4tw26, id=lsv8miu0aa4tw26
+2026-06-09T04:16:36.207Z - info: Starting rendering request 1 (user: admin) rootId=lsv8miu0aa4tw26, id=lsv8miu0aa4tw26
+2026-06-09T04:16:36.207Z - warn: Error when processing render request 1
+(because) unable to find specified template (/report_product/pdf/main)
+Error: Unable to find specified template (/report_product/pdf/main)
+  at module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:51:28)
+  at async ListenerCollection.fire (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+  at async beforeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=lsv8miu0aa4tw26, id=lsv8miu0aa4tw26
+2026-06-09T04:16:36.207Z - warn: Rendering request 1 finished with error in 21 ms rootId=lsv8miu0aa4tw26, id=lsv8miu0aa4tw26
+2026-06-09T04:16:36.209Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-06-09T04:16:39.174Z - info: Render request 2 queued for execution and waiting for available worker rootId=owib9lh90v60yec, id=owib9lh90v60yec
+2026-06-09T04:16:39.189Z - info: Starting rendering request 2 (user: admin) rootId=owib9lh90v60yec, id=owib9lh90v60yec
+2026-06-09T04:16:39.189Z - warn: Error when processing render request 2
+(because) unable to find specified template (/report_product/excel/product-excel)
+Error: Unable to find specified template (/report_product/excel/product-excel)
+  at module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:51:28)
+  at async ListenerCollection.fire (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+  at async beforeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=owib9lh90v60yec, id=owib9lh90v60yec
+2026-06-09T04:16:39.190Z - warn: Rendering request 2 finished with error in 15 ms rootId=owib9lh90v60yec, id=owib9lh90v60yec
+2026-06-09T04:16:39.193Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-06-09T04:17:02.867Z - info: Render request 3 queued for execution and waiting for available worker rootId=rd4stm950nwyuwb, id=rd4stm950nwyuwb
+2026-06-09T04:17:02.915Z - info: Starting rendering request 3 (user: admin) rootId=rd4stm950nwyuwb, id=rd4stm950nwyuwb
+2026-06-09T04:17:02.916Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=rd4stm950nwyuwb, id=rd4stm950nwyuwb
+2026-06-09T04:17:04.535Z - info: Rendering request 3 finished in 1667 ms rootId=rd4stm950nwyuwb, id=rd4stm950nwyuwb
+2026-06-09T04:19:11.064Z - info: Render request 4 queued for execution and waiting for available worker rootId=8kblqxcoibuu6nv, id=8kblqxcoibuu6nv
+2026-06-09T04:19:11.067Z - info: Starting rendering request 4 (user: admin) rootId=8kblqxcoibuu6nv, id=8kblqxcoibuu6nv
+2026-06-09T04:19:11.067Z - warn: Error when processing render request 4
+(because) unable to find specified template (/report_sale/excel/sale-excel)
+Error: Unable to find specified template (/report_sale/excel/sale-excel)
+  at module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:51:28)
+  at async ListenerCollection.fire (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+  at async beforeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=8kblqxcoibuu6nv, id=8kblqxcoibuu6nv
+2026-06-09T04:19:11.068Z - warn: Rendering request 4 finished with error in 4 ms rootId=8kblqxcoibuu6nv, id=8kblqxcoibuu6nv
+2026-06-09T04:19:11.068Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-06-09T04:19:16.531Z - info: Render request 5 queued for execution and waiting for available worker rootId=g89fmmtgwfo1n2q, id=g89fmmtgwfo1n2q
+2026-06-09T04:19:16.540Z - info: Starting rendering request 5 (user: admin) rootId=g89fmmtgwfo1n2q, id=g89fmmtgwfo1n2q
+2026-06-09T04:19:16.540Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=g89fmmtgwfo1n2q, id=g89fmmtgwfo1n2q
+2026-06-09T04:19:16.604Z - info: Rendering request 5 finished in 72 ms rootId=g89fmmtgwfo1n2q, id=g89fmmtgwfo1n2q
+2026-06-09T04:19:53.876Z - info: Render request 6 queued for execution and waiting for available worker rootId=aum5rymx4rvj887, id=aum5rymx4rvj887
+2026-06-09T04:19:53.923Z - info: Starting rendering request 6 (user: admin) rootId=aum5rymx4rvj887, id=aum5rymx4rvj887
+2026-06-09T04:19:53.923Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=aum5rymx4rvj887, id=aum5rymx4rvj887
+2026-06-09T04:19:54.501Z - info: Rendering request 6 finished in 624 ms rootId=aum5rymx4rvj887, id=aum5rymx4rvj887
+2026-06-09T04:23:40.561Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-06-09T04:23:40.562Z - info: Searching for available extensions in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T04:23:40.569Z - info: Extensions location cache contains up to date information, skipping crawling in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T04:23:40.573Z - info: Found 35 extension(s)
+2026-06-09T04:23:40.632Z - info: Using extension authentication@4.0.1
+2026-06-09T04:23:40.732Z - info: Using extension base@4.0.0
+2026-06-09T04:23:40.734Z - info: Using extension child-templates@4.0.0
+2026-06-09T04:23:40.735Z - info: Using extension cli@4.0.2
+2026-06-09T04:23:40.736Z - info: Using extension components@4.0.0
+2026-06-09T04:23:40.737Z - info: Using extension data@4.0.0
+2026-06-09T04:23:40.738Z - info: Using extension express@4.0.1
+2026-06-09T04:23:40.877Z - info: Using extension freeze@4.0.0
+2026-06-09T04:23:40.878Z - info: Using extension fs-store@4.0.1
+2026-06-09T04:23:40.949Z - info: Using extension handlebars@4.0.1
+2026-06-09T04:23:40.950Z - info: Using extension import-export@4.0.2
+2026-06-09T04:23:40.955Z - info: Using extension jsrender@4.0.0
+2026-06-09T04:23:40.955Z - info: Using extension licensing@4.0.1
+2026-06-09T04:23:40.967Z - info: Using extension localization@4.0.1
+2026-06-09T04:23:40.968Z - info: Using extension npm@4.0.0
+2026-06-09T04:23:40.970Z - info: Using extension pdf-utils@4.0.2
+2026-06-09T04:23:40.971Z - info: Using extension reports@4.0.0
+2026-06-09T04:23:40.973Z - info: Using extension tags@4.0.1
+2026-06-09T04:23:40.974Z - info: Using extension text@4.0.0
+2026-06-09T04:23:40.974Z - info: Using extension version-control@4.0.0
+2026-06-09T04:23:40.983Z - info: Using extension assets@4.0.2
+2026-06-09T04:23:40.990Z - info: Using extension authorization@4.0.0
+2026-06-09T04:23:40.992Z - info: Using extension browser-client@4.0.0
+2026-06-09T04:23:40.994Z - info: Using extension chrome-pdf@4.0.0
+2026-06-09T04:23:40.997Z - info: Using extension docx@4.1.1
+2026-06-09T04:23:40.999Z - info: Using extension html-to-xlsx@4.0.1
+2026-06-09T04:23:41.169Z - info: html-to-xlsx detected chrome as available html engine
+2026-06-09T04:23:41.169Z - info: Using extension pptx@4.1.0
+2026-06-09T04:23:41.171Z - info: Using extension scheduling@4.0.0
+2026-06-09T04:23:41.194Z - info: Using extension scripts@4.0.0
+2026-06-09T04:23:41.195Z - info: Using extension static-pdf@4.0.0
+2026-06-09T04:23:41.195Z - info: Using extension studio@4.0.2
+2026-06-09T04:23:41.254Z - info: Using extension xlsx@4.0.2
+2026-06-09T04:23:41.255Z - info: Using extension public-templates@4.0.0
+2026-06-09T04:23:41.255Z - info: Using extension sample-template@4.0.0
+2026-06-09T04:23:41.256Z - info: Using extension studio-theme-dark@4.0.0
+2026-06-09T04:23:41.257Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-06-09T04:23:41.257Z - info: Using fs provider for template store.
+2026-06-09T04:23:41.261Z - info: fs store is persisting using fs for /home/soksim/Documents/POS/Posv2/report-v3/data
+2026-06-09T04:23:41.264Z - info: fs store is loading data
+2026-06-09T04:23:41.277Z - info: fs store is initialized successfully
+2026-06-09T04:23:41.285Z - info: Creating default express app.
+2026-06-09T04:23:41.303Z - info: jsreport server successfully started on http port: 5488
+2026-06-09T04:23:41.304Z - info: Verifying license key free
+2026-06-09T04:23:41.304Z - info: Using free license
+2026-06-09T04:23:41.307Z - info: Initializing worker threads
+2026-06-09T04:23:41.763Z - info: 2 worker threads initialized in 456ms
+2026-06-09T04:23:41.764Z - info: Starting temp files cleanup with 180000ms threshold
+2026-06-09T04:23:41.764Z - info: reporter initialized
+2026-06-09T04:24:23.439Z - info: Render request 1 queued for execution and waiting for available worker rootId=7ytkp2o6gza5wvz, id=7ytkp2o6gza5wvz
+2026-06-09T04:24:23.493Z - info: Starting rendering request 1 (user: admin) rootId=7ytkp2o6gza5wvz, id=7ytkp2o6gza5wvz
+2026-06-09T04:24:23.494Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=7ytkp2o6gza5wvz, id=7ytkp2o6gza5wvz
+2026-06-09T04:24:24.132Z - info: Rendering request 1 finished in 692 ms rootId=7ytkp2o6gza5wvz, id=7ytkp2o6gza5wvz
+2026-06-09T04:27:53.385Z - info: Render request 2 queued for execution and waiting for available worker rootId=onna53lys4z4jsz, id=onna53lys4z4jsz
+2026-06-09T04:27:53.438Z - info: Starting rendering request 2 (user: admin) rootId=onna53lys4z4jsz, id=onna53lys4z4jsz
+2026-06-09T04:27:53.438Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=onna53lys4z4jsz, id=onna53lys4z4jsz
+2026-06-09T04:27:53.920Z - info: Rendering request 2 finished in 535 ms rootId=onna53lys4z4jsz, id=onna53lys4z4jsz
+2026-06-09T04:28:08.224Z - info: Render request 3 queued for execution and waiting for available worker rootId=woilszp3f9xsm5y, id=woilszp3f9xsm5y
+2026-06-09T04:28:08.230Z - info: Starting rendering request 3 (user: admin) rootId=woilszp3f9xsm5y, id=woilszp3f9xsm5y
+2026-06-09T04:28:08.230Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=woilszp3f9xsm5y, id=woilszp3f9xsm5y
+2026-06-09T04:28:08.299Z - info: Rendering request 3 finished in 73 ms rootId=woilszp3f9xsm5y, id=woilszp3f9xsm5y
+2026-06-09T04:28:18.853Z - info: Render request 4 queued for execution and waiting for available worker rootId=5vr3eu9gcdjypww, id=5vr3eu9gcdjypww
+2026-06-09T04:28:18.865Z - info: Starting rendering request 4 (user: admin) rootId=5vr3eu9gcdjypww, id=5vr3eu9gcdjypww
+2026-06-09T04:28:18.865Z - warn: Error when processing render request 4
+(because) unable to find specified template (/report_sale/excel/sale-excel)
+Error: Unable to find specified template (/report_sale/excel/sale-excel)
+  at module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:51:28)
+  at async ListenerCollection.fire (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+  at async beforeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=5vr3eu9gcdjypww, id=5vr3eu9gcdjypww
+2026-06-09T04:28:18.866Z - warn: Rendering request 4 finished with error in 13 ms rootId=5vr3eu9gcdjypww, id=5vr3eu9gcdjypww
+2026-06-09T04:28:18.868Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-06-09T04:28:28.005Z - info: Render request 5 queued for execution and waiting for available worker rootId=vgvwuaocvk997g4, id=vgvwuaocvk997g4
+2026-06-09T04:28:28.014Z - info: Starting rendering request 5 (user: admin) rootId=vgvwuaocvk997g4, id=vgvwuaocvk997g4
+2026-06-09T04:28:28.014Z - warn: Error when processing render request 5
+(because) unable to find specified template (/report_sale/excel/sale-excel)
+Error: Unable to find specified template (/report_sale/excel/sale-excel)
+  at module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+  at WorkerReporter.createError (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:49:12)
+  at AsyncFunction.<anonymous> (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:51:28)
+  at async ListenerCollection.fire (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+  at async beforeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:24:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:141:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=vgvwuaocvk997g4, id=vgvwuaocvk997g4
+2026-06-09T04:28:28.014Z - warn: Rendering request 5 finished with error in 9 ms rootId=vgvwuaocvk997g4, id=vgvwuaocvk997g4
+2026-06-09T04:28:28.015Z - warn: Error during processing request at http://localhost:5488/api/report
+2026-06-09T04:28:39.203Z - info: Render request 6 queued for execution and waiting for available worker rootId=e97en24n6kochx3, id=e97en24n6kochx3
+2026-06-09T04:28:39.210Z - info: Starting rendering request 6 (user: admin) rootId=e97en24n6kochx3, id=e97en24n6kochx3
+2026-06-09T04:28:39.211Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=e97en24n6kochx3, id=e97en24n6kochx3
+2026-06-09T04:28:39.275Z - info: Rendering request 6 finished in 73 ms rootId=e97en24n6kochx3, id=e97en24n6kochx3
+2026-06-09T04:37:08.739Z - info: Render request 7 queued for execution and waiting for available worker rootId=grr6ku3k4cmqcqe, id=grr6ku3k4cmqcqe
+2026-06-09T04:37:08.746Z - info: Starting rendering request 7 (user: admin) rootId=grr6ku3k4cmqcqe, id=grr6ku3k4cmqcqe
+2026-06-09T04:37:08.746Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=grr6ku3k4cmqcqe, id=grr6ku3k4cmqcqe
+2026-06-09T04:37:08.830Z - info: Rendering request 7 finished in 91 ms rootId=grr6ku3k4cmqcqe, id=grr6ku3k4cmqcqe
+2026-06-09T04:38:21.597Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-06-09T04:38:21.598Z - info: Searching for available extensions in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T04:38:21.603Z - info: Extensions location cache contains up to date information, skipping crawling in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T04:38:21.606Z - info: Found 35 extension(s)
+2026-06-09T04:38:21.646Z - info: Using extension authentication@4.0.1
+2026-06-09T04:38:21.729Z - info: Using extension base@4.0.0
+2026-06-09T04:38:21.731Z - info: Using extension child-templates@4.0.0
+2026-06-09T04:38:21.732Z - info: Using extension cli@4.0.2
+2026-06-09T04:38:21.734Z - info: Using extension components@4.0.0
+2026-06-09T04:38:21.734Z - info: Using extension data@4.0.0
+2026-06-09T04:38:21.735Z - info: Using extension express@4.0.1
+2026-06-09T04:38:21.869Z - info: Using extension freeze@4.0.0
+2026-06-09T04:38:21.870Z - info: Using extension fs-store@4.0.1
+2026-06-09T04:38:21.931Z - info: Using extension handlebars@4.0.1
+2026-06-09T04:38:21.932Z - info: Using extension import-export@4.0.2
+2026-06-09T04:38:21.937Z - info: Using extension jsrender@4.0.0
+2026-06-09T04:38:21.938Z - info: Using extension licensing@4.0.1
+2026-06-09T04:38:21.950Z - info: Using extension localization@4.0.1
+2026-06-09T04:38:21.951Z - info: Using extension npm@4.0.0
+2026-06-09T04:38:21.953Z - info: Using extension pdf-utils@4.0.2
+2026-06-09T04:38:21.954Z - info: Using extension reports@4.0.0
+2026-06-09T04:38:21.955Z - info: Using extension tags@4.0.1
+2026-06-09T04:38:21.956Z - info: Using extension text@4.0.0
+2026-06-09T04:38:21.957Z - info: Using extension version-control@4.0.0
+2026-06-09T04:38:21.964Z - info: Using extension assets@4.0.2
+2026-06-09T04:38:21.969Z - info: Using extension authorization@4.0.0
+2026-06-09T04:38:21.971Z - info: Using extension browser-client@4.0.0
+2026-06-09T04:38:21.973Z - info: Using extension chrome-pdf@4.0.0
+2026-06-09T04:38:21.975Z - info: Using extension docx@4.1.1
+2026-06-09T04:38:21.976Z - info: Using extension html-to-xlsx@4.0.1
+2026-06-09T04:38:22.122Z - info: html-to-xlsx detected chrome as available html engine
+2026-06-09T04:38:22.122Z - info: Using extension pptx@4.1.0
+2026-06-09T04:38:22.123Z - info: Using extension scheduling@4.0.0
+2026-06-09T04:38:22.144Z - info: Using extension scripts@4.0.0
+2026-06-09T04:38:22.145Z - info: Using extension static-pdf@4.0.0
+2026-06-09T04:38:22.146Z - info: Using extension studio@4.0.2
+2026-06-09T04:38:22.202Z - info: Using extension xlsx@4.0.2
+2026-06-09T04:38:22.203Z - info: Using extension public-templates@4.0.0
+2026-06-09T04:38:22.204Z - info: Using extension sample-template@4.0.0
+2026-06-09T04:38:22.205Z - info: Using extension studio-theme-dark@4.0.0
+2026-06-09T04:38:22.206Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-06-09T04:38:22.206Z - info: Using fs provider for template store.
+2026-06-09T04:38:22.209Z - info: fs store is persisting using fs for /home/soksim/Documents/POS/Posv2/report-v3/data
+2026-06-09T04:38:22.212Z - info: fs store is loading data
+2026-06-09T04:38:22.235Z - info: fs store is initialized successfully
+2026-06-09T04:38:22.243Z - info: Creating default express app.
+2026-06-09T04:38:22.262Z - info: jsreport server successfully started on http port: 5488
+2026-06-09T04:38:22.263Z - info: Verifying license key free
+2026-06-09T04:38:22.263Z - info: Using free license
+2026-06-09T04:38:22.266Z - info: Initializing worker threads
+2026-06-09T04:38:22.704Z - info: 2 worker threads initialized in 438ms
+2026-06-09T04:38:22.705Z - info: Starting temp files cleanup with 180000ms threshold
+2026-06-09T04:38:22.705Z - info: reporter initialized
+2026-06-09T04:39:04.792Z - info: Render request 1 queued for execution and waiting for available worker rootId=ddy30828tcw1nly, id=ddy30828tcw1nly
+2026-06-09T04:39:04.847Z - info: Starting rendering request 1 (user: admin) rootId=ddy30828tcw1nly, id=ddy30828tcw1nly
+2026-06-09T04:39:04.847Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=ddy30828tcw1nly, id=ddy30828tcw1nly
+2026-06-09T04:39:05.426Z - info: Rendering request 1 finished in 633 ms rootId=ddy30828tcw1nly, id=ddy30828tcw1nly
+2026-06-09T04:42:00.245Z - info: Render request 2 queued for execution and waiting for available worker rootId=yb8lzrmi13so414, id=yb8lzrmi13so414
+2026-06-09T04:42:00.276Z - info: Starting rendering request 2 (user: admin) rootId=yb8lzrmi13so414, id=yb8lzrmi13so414
+2026-06-09T04:42:00.276Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=yb8lzrmi13so414, id=yb8lzrmi13so414
+2026-06-09T04:42:00.684Z - info: Rendering request 2 finished in 438 ms rootId=yb8lzrmi13so414, id=yb8lzrmi13so414
+2026-06-09T04:44:35.705Z - info: Render request 3 queued for execution and waiting for available worker rootId=k8yugg9m80acf0o, id=k8yugg9m80acf0o
+2026-06-09T04:44:35.714Z - info: Starting rendering request 3 (user: admin) rootId=k8yugg9m80acf0o, id=k8yugg9m80acf0o
+2026-06-09T04:44:35.714Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=k8yugg9m80acf0o, id=k8yugg9m80acf0o
+2026-06-09T04:44:35.842Z - info: Rendering request 3 finished in 136 ms rootId=k8yugg9m80acf0o, id=k8yugg9m80acf0o
+2026-06-09T04:45:01.072Z - info: Render request 4 queued for execution and waiting for available worker rootId=1nua8ugjej2hcmm, id=1nua8ugjej2hcmm
+2026-06-09T04:45:01.079Z - info: Starting rendering request 4 (user: admin) rootId=1nua8ugjej2hcmm, id=1nua8ugjej2hcmm
+2026-06-09T04:45:01.080Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=1nua8ugjej2hcmm, id=1nua8ugjej2hcmm
+2026-06-09T04:45:01.146Z - info: Rendering request 4 finished in 75 ms rootId=1nua8ugjej2hcmm, id=1nua8ugjej2hcmm
+2026-06-09T04:48:15.458Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-06-09T04:48:15.460Z - info: Searching for available extensions in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T04:48:15.465Z - info: Extensions location cache contains up to date information, skipping crawling in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T04:48:15.469Z - info: Found 35 extension(s)
+2026-06-09T04:48:15.511Z - info: Using extension authentication@4.0.1
+2026-06-09T04:48:15.603Z - info: Using extension base@4.0.0
+2026-06-09T04:48:15.605Z - info: Using extension child-templates@4.0.0
+2026-06-09T04:48:15.606Z - info: Using extension cli@4.0.2
+2026-06-09T04:48:15.608Z - info: Using extension components@4.0.0
+2026-06-09T04:48:15.608Z - info: Using extension data@4.0.0
+2026-06-09T04:48:15.609Z - info: Using extension express@4.0.1
+2026-06-09T04:48:15.774Z - info: Using extension freeze@4.0.0
+2026-06-09T04:48:15.775Z - info: Using extension fs-store@4.0.1
+2026-06-09T04:48:15.828Z - info: Using extension handlebars@4.0.1
+2026-06-09T04:48:15.830Z - info: Using extension import-export@4.0.2
+2026-06-09T04:48:15.835Z - info: Using extension jsrender@4.0.0
+2026-06-09T04:48:15.835Z - info: Using extension licensing@4.0.1
+2026-06-09T04:48:15.852Z - info: Using extension localization@4.0.1
+2026-06-09T04:48:15.853Z - info: Using extension npm@4.0.0
+2026-06-09T04:48:15.856Z - info: Using extension pdf-utils@4.0.2
+2026-06-09T04:48:15.858Z - info: Using extension reports@4.0.0
+2026-06-09T04:48:15.860Z - info: Using extension tags@4.0.1
+2026-06-09T04:48:15.861Z - info: Using extension text@4.0.0
+2026-06-09T04:48:15.861Z - info: Using extension version-control@4.0.0
+2026-06-09T04:48:15.869Z - info: Using extension assets@4.0.2
+2026-06-09T04:48:15.876Z - info: Using extension authorization@4.0.0
+2026-06-09T04:48:15.879Z - info: Using extension browser-client@4.0.0
+2026-06-09T04:48:15.882Z - info: Using extension chrome-pdf@4.0.0
+2026-06-09T04:48:15.885Z - info: Using extension docx@4.1.1
+2026-06-09T04:48:15.887Z - info: Using extension html-to-xlsx@4.0.1
+2026-06-09T04:48:16.054Z - info: html-to-xlsx detected chrome as available html engine
+2026-06-09T04:48:16.054Z - info: Using extension pptx@4.1.0
+2026-06-09T04:48:16.055Z - info: Using extension scheduling@4.0.0
+2026-06-09T04:48:16.077Z - info: Using extension scripts@4.0.0
+2026-06-09T04:48:16.078Z - info: Using extension static-pdf@4.0.0
+2026-06-09T04:48:16.079Z - info: Using extension studio@4.0.2
+2026-06-09T04:48:16.134Z - info: Using extension xlsx@4.0.2
+2026-06-09T04:48:16.135Z - info: Using extension public-templates@4.0.0
+2026-06-09T04:48:16.136Z - info: Using extension sample-template@4.0.0
+2026-06-09T04:48:16.137Z - info: Using extension studio-theme-dark@4.0.0
+2026-06-09T04:48:16.138Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-06-09T04:48:16.138Z - info: Using fs provider for template store.
+2026-06-09T04:48:16.141Z - info: fs store is persisting using fs for /home/soksim/Documents/POS/Posv2/report-v3/data
+2026-06-09T04:48:16.144Z - info: fs store is loading data
+2026-06-09T04:48:16.158Z - info: fs store is initialized successfully
+2026-06-09T04:48:16.166Z - info: Creating default express app.
+2026-06-09T04:48:16.193Z - info: jsreport server successfully started on http port: 5488
+2026-06-09T04:48:16.194Z - info: Verifying license key free
+2026-06-09T04:48:16.195Z - info: Using free license
+2026-06-09T04:48:16.199Z - info: Initializing worker threads
+2026-06-09T04:48:16.651Z - info: 2 worker threads initialized in 452ms
+2026-06-09T04:48:16.651Z - info: Starting temp files cleanup with 180000ms threshold
+2026-06-09T04:48:16.652Z - info: reporter initialized
+2026-06-09T04:48:49.327Z - info: Render request 1 queued for execution and waiting for available worker rootId=1gvyhpmpyz99cul, id=1gvyhpmpyz99cul
+2026-06-09T04:48:49.377Z - info: Starting rendering request 1 (user: admin) rootId=1gvyhpmpyz99cul, id=1gvyhpmpyz99cul
+2026-06-09T04:48:49.377Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=1gvyhpmpyz99cul, id=1gvyhpmpyz99cul
+2026-06-09T04:48:49.863Z - info: Rendering request 1 finished in 535 ms rootId=1gvyhpmpyz99cul, id=1gvyhpmpyz99cul
+2026-06-09T04:50:47.594Z - info: Render request 2 queued for execution and waiting for available worker rootId=6r7te3n7ujvj64s, id=6r7te3n7ujvj64s
+2026-06-09T04:50:47.682Z - info: Starting rendering request 2 (user: admin) rootId=6r7te3n7ujvj64s, id=6r7te3n7ujvj64s
+2026-06-09T04:50:47.683Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=6r7te3n7ujvj64s, id=6r7te3n7ujvj64s
+2026-06-09T04:50:48.204Z - info: Rendering request 2 finished in 617 ms rootId=6r7te3n7ujvj64s, id=6r7te3n7ujvj64s
+2026-06-09T04:54:56.036Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-06-09T04:54:56.038Z - info: Searching for available extensions in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T04:54:56.043Z - info: Extensions location cache contains up to date information, skipping crawling in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T04:54:56.045Z - info: Found 35 extension(s)
+2026-06-09T04:54:56.085Z - info: Using extension authentication@4.0.1
+2026-06-09T04:54:56.167Z - info: Using extension base@4.0.0
+2026-06-09T04:54:56.170Z - info: Using extension child-templates@4.0.0
+2026-06-09T04:54:56.170Z - info: Using extension cli@4.0.2
+2026-06-09T04:54:56.172Z - info: Using extension components@4.0.0
+2026-06-09T04:54:56.172Z - info: Using extension data@4.0.0
+2026-06-09T04:54:56.173Z - info: Using extension express@4.0.1
+2026-06-09T04:54:56.319Z - info: Using extension freeze@4.0.0
+2026-06-09T04:54:56.320Z - info: Using extension fs-store@4.0.1
+2026-06-09T04:54:56.397Z - info: Using extension handlebars@4.0.1
+2026-06-09T04:54:56.400Z - info: Using extension import-export@4.0.2
+2026-06-09T04:54:56.411Z - info: Using extension jsrender@4.0.0
+2026-06-09T04:54:56.412Z - info: Using extension licensing@4.0.1
+2026-06-09T04:54:56.426Z - info: Using extension localization@4.0.1
+2026-06-09T04:54:56.427Z - info: Using extension npm@4.0.0
+2026-06-09T04:54:56.429Z - info: Using extension pdf-utils@4.0.2
+2026-06-09T04:54:56.431Z - info: Using extension reports@4.0.0
+2026-06-09T04:54:56.433Z - info: Using extension tags@4.0.1
+2026-06-09T04:54:56.434Z - info: Using extension text@4.0.0
+2026-06-09T04:54:56.435Z - info: Using extension version-control@4.0.0
+2026-06-09T04:54:56.447Z - info: Using extension assets@4.0.2
+2026-06-09T04:54:56.454Z - info: Using extension authorization@4.0.0
+2026-06-09T04:54:56.456Z - info: Using extension browser-client@4.0.0
+2026-06-09T04:54:56.459Z - info: Using extension chrome-pdf@4.0.0
+2026-06-09T04:54:56.461Z - info: Using extension docx@4.1.1
+2026-06-09T04:54:56.462Z - info: Using extension html-to-xlsx@4.0.1
+2026-06-09T04:54:56.625Z - info: html-to-xlsx detected chrome as available html engine
+2026-06-09T04:54:56.625Z - info: Using extension pptx@4.1.0
+2026-06-09T04:54:56.626Z - info: Using extension scheduling@4.0.0
+2026-06-09T04:54:56.645Z - info: Using extension scripts@4.0.0
+2026-06-09T04:54:56.646Z - info: Using extension static-pdf@4.0.0
+2026-06-09T04:54:56.647Z - info: Using extension studio@4.0.2
+2026-06-09T04:54:56.702Z - info: Using extension xlsx@4.0.2
+2026-06-09T04:54:56.704Z - info: Using extension public-templates@4.0.0
+2026-06-09T04:54:56.704Z - info: Using extension sample-template@4.0.0
+2026-06-09T04:54:56.705Z - info: Using extension studio-theme-dark@4.0.0
+2026-06-09T04:54:56.706Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-06-09T04:54:56.706Z - info: Using fs provider for template store.
+2026-06-09T04:54:56.710Z - info: fs store is persisting using fs for /home/soksim/Documents/POS/Posv2/report-v3/data
+2026-06-09T04:54:56.714Z - info: fs store is loading data
+2026-06-09T04:54:56.729Z - info: fs store is initialized successfully
+2026-06-09T04:54:56.738Z - info: Creating default express app.
+2026-06-09T04:54:56.756Z - info: jsreport server successfully started on http port: 5488
+2026-06-09T04:54:56.757Z - info: Verifying license key free
+2026-06-09T04:54:56.757Z - info: Using free license
+2026-06-09T04:54:56.760Z - info: Initializing worker threads
+2026-06-09T04:54:57.195Z - info: 2 worker threads initialized in 435ms
+2026-06-09T04:54:57.195Z - info: Starting temp files cleanup with 180000ms threshold
+2026-06-09T04:54:57.196Z - info: reporter initialized
+2026-06-09T04:56:18.071Z - info: Render request 1 queued for execution and waiting for available worker rootId=gnp41kumeskuozg, id=gnp41kumeskuozg
+2026-06-09T04:56:18.135Z - info: Starting rendering request 1 (user: admin) rootId=gnp41kumeskuozg, id=gnp41kumeskuozg
+2026-06-09T04:56:18.135Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=gnp41kumeskuozg, id=gnp41kumeskuozg
+2026-06-09T04:56:18.645Z - info: Rendering request 1 finished in 575 ms rootId=gnp41kumeskuozg, id=gnp41kumeskuozg
+2026-06-09T04:59:25.419Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-06-09T04:59:25.421Z - info: Searching for available extensions in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T04:59:25.426Z - info: Extensions location cache contains up to date information, skipping crawling in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T04:59:25.428Z - info: Found 35 extension(s)
+2026-06-09T04:59:25.469Z - info: Using extension authentication@4.0.1
+2026-06-09T04:59:25.551Z - info: Using extension base@4.0.0
+2026-06-09T04:59:25.553Z - info: Using extension child-templates@4.0.0
+2026-06-09T04:59:25.553Z - info: Using extension cli@4.0.2
+2026-06-09T04:59:25.555Z - info: Using extension components@4.0.0
+2026-06-09T04:59:25.556Z - info: Using extension data@4.0.0
+2026-06-09T04:59:25.556Z - info: Using extension express@4.0.1
+2026-06-09T04:59:25.680Z - info: Using extension freeze@4.0.0
+2026-06-09T04:59:25.682Z - info: Using extension fs-store@4.0.1
+2026-06-09T04:59:25.732Z - info: Using extension handlebars@4.0.1
+2026-06-09T04:59:25.733Z - info: Using extension import-export@4.0.2
+2026-06-09T04:59:25.738Z - info: Using extension jsrender@4.0.0
+2026-06-09T04:59:25.738Z - info: Using extension licensing@4.0.1
+2026-06-09T04:59:25.749Z - info: Using extension localization@4.0.1
+2026-06-09T04:59:25.750Z - info: Using extension npm@4.0.0
+2026-06-09T04:59:25.752Z - info: Using extension pdf-utils@4.0.2
+2026-06-09T04:59:25.753Z - info: Using extension reports@4.0.0
+2026-06-09T04:59:25.754Z - info: Using extension tags@4.0.1
+2026-06-09T04:59:25.755Z - info: Using extension text@4.0.0
+2026-06-09T04:59:25.756Z - info: Using extension version-control@4.0.0
+2026-06-09T04:59:25.763Z - info: Using extension assets@4.0.2
+2026-06-09T04:59:25.770Z - info: Using extension authorization@4.0.0
+2026-06-09T04:59:25.772Z - info: Using extension browser-client@4.0.0
+2026-06-09T04:59:25.773Z - info: Using extension chrome-pdf@4.0.0
+2026-06-09T04:59:25.776Z - info: Using extension docx@4.1.1
+2026-06-09T04:59:25.777Z - info: Using extension html-to-xlsx@4.0.1
+2026-06-09T04:59:25.939Z - info: html-to-xlsx detected chrome as available html engine
+2026-06-09T04:59:25.939Z - info: Using extension pptx@4.1.0
+2026-06-09T04:59:25.940Z - info: Using extension scheduling@4.0.0
+2026-06-09T04:59:25.960Z - info: Using extension scripts@4.0.0
+2026-06-09T04:59:25.961Z - info: Using extension static-pdf@4.0.0
+2026-06-09T04:59:25.961Z - info: Using extension studio@4.0.2
+2026-06-09T04:59:26.014Z - info: Using extension xlsx@4.0.2
+2026-06-09T04:59:26.015Z - info: Using extension public-templates@4.0.0
+2026-06-09T04:59:26.016Z - info: Using extension sample-template@4.0.0
+2026-06-09T04:59:26.017Z - info: Using extension studio-theme-dark@4.0.0
+2026-06-09T04:59:26.018Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-06-09T04:59:26.018Z - info: Using fs provider for template store.
+2026-06-09T04:59:26.021Z - info: fs store is persisting using fs for /home/soksim/Documents/POS/Posv2/report-v3/data
+2026-06-09T04:59:26.025Z - info: fs store is loading data
+2026-06-09T04:59:26.040Z - info: fs store is initialized successfully
+2026-06-09T04:59:26.047Z - info: Creating default express app.
+2026-06-09T04:59:26.067Z - info: jsreport server successfully started on http port: 5488
+2026-06-09T04:59:26.067Z - info: Verifying license key free
+2026-06-09T04:59:26.068Z - info: Using free license
+2026-06-09T04:59:26.071Z - info: Initializing worker threads
+2026-06-09T04:59:26.525Z - info: 2 worker threads initialized in 454ms
+2026-06-09T04:59:26.526Z - info: Starting temp files cleanup with 180000ms threshold
+2026-06-09T04:59:26.526Z - info: reporter initialized
+2026-06-09T04:59:58.931Z - info: Render request 1 queued for execution and waiting for available worker rootId=a8pome1wkt89mqu, id=a8pome1wkt89mqu
+2026-06-09T04:59:58.982Z - info: Starting rendering request 1 (user: admin) rootId=a8pome1wkt89mqu, id=a8pome1wkt89mqu
+2026-06-09T04:59:58.982Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=a8pome1wkt89mqu, id=a8pome1wkt89mqu
+2026-06-09T04:59:59.636Z - info: Rendering request 1 finished in 706 ms rootId=a8pome1wkt89mqu, id=a8pome1wkt89mqu
+2026-06-09T05:01:03.539Z - info: Render request 2 queued for execution and waiting for available worker rootId=2cqm6db65kufsap, id=2cqm6db65kufsap
+2026-06-09T05:01:03.581Z - info: Starting rendering request 2 (user: admin) rootId=2cqm6db65kufsap, id=2cqm6db65kufsap
+2026-06-09T05:01:03.581Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=2cqm6db65kufsap, id=2cqm6db65kufsap
+2026-06-09T05:01:04.061Z - info: Rendering request 2 finished in 521 ms rootId=2cqm6db65kufsap, id=2cqm6db65kufsap
+2026-06-09T05:03:22.413Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.20.2)
+2026-06-09T05:03:22.414Z - info: Searching for available extensions in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T05:03:22.420Z - info: Extensions location cache contains up to date information, skipping crawling in /home/soksim/Documents/POS/Posv2/report-v3/
+2026-06-09T05:03:22.423Z - info: Found 35 extension(s)
+2026-06-09T05:03:22.461Z - info: Using extension authentication@4.0.1
+2026-06-09T05:03:22.544Z - info: Using extension base@4.0.0
+2026-06-09T05:03:22.546Z - info: Using extension child-templates@4.0.0
+2026-06-09T05:03:22.547Z - info: Using extension cli@4.0.2
+2026-06-09T05:03:22.548Z - info: Using extension components@4.0.0
+2026-06-09T05:03:22.549Z - info: Using extension data@4.0.0
+2026-06-09T05:03:22.549Z - info: Using extension express@4.0.1
+2026-06-09T05:03:22.677Z - info: Using extension freeze@4.0.0
+2026-06-09T05:03:22.678Z - info: Using extension fs-store@4.0.1
+2026-06-09T05:03:22.730Z - info: Using extension handlebars@4.0.1
+2026-06-09T05:03:22.731Z - info: Using extension import-export@4.0.2
+2026-06-09T05:03:22.736Z - info: Using extension jsrender@4.0.0
+2026-06-09T05:03:22.737Z - info: Using extension licensing@4.0.1
+2026-06-09T05:03:22.751Z - info: Using extension localization@4.0.1
+2026-06-09T05:03:22.752Z - info: Using extension npm@4.0.0
+2026-06-09T05:03:22.754Z - info: Using extension pdf-utils@4.0.2
+2026-06-09T05:03:22.755Z - info: Using extension reports@4.0.0
+2026-06-09T05:03:22.756Z - info: Using extension tags@4.0.1
+2026-06-09T05:03:22.758Z - info: Using extension text@4.0.0
+2026-06-09T05:03:22.758Z - info: Using extension version-control@4.0.0
+2026-06-09T05:03:22.766Z - info: Using extension assets@4.0.2
+2026-06-09T05:03:22.771Z - info: Using extension authorization@4.0.0
+2026-06-09T05:03:22.773Z - info: Using extension browser-client@4.0.0
+2026-06-09T05:03:22.776Z - info: Using extension chrome-pdf@4.0.0
+2026-06-09T05:03:22.778Z - info: Using extension docx@4.1.1
+2026-06-09T05:03:22.779Z - info: Using extension html-to-xlsx@4.0.1
+2026-06-09T05:03:22.939Z - info: html-to-xlsx detected chrome as available html engine
+2026-06-09T05:03:22.939Z - info: Using extension pptx@4.1.0
+2026-06-09T05:03:22.940Z - info: Using extension scheduling@4.0.0
+2026-06-09T05:03:22.959Z - info: Using extension scripts@4.0.0
+2026-06-09T05:03:22.960Z - info: Using extension static-pdf@4.0.0
+2026-06-09T05:03:22.961Z - info: Using extension studio@4.0.2
+2026-06-09T05:03:23.012Z - info: Using extension xlsx@4.0.2
+2026-06-09T05:03:23.014Z - info: Using extension public-templates@4.0.0
+2026-06-09T05:03:23.014Z - info: Using extension sample-template@4.0.0
+2026-06-09T05:03:23.015Z - info: Using extension studio-theme-dark@4.0.0
+2026-06-09T05:03:23.016Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2026-06-09T05:03:23.016Z - info: Using fs provider for template store.
+2026-06-09T05:03:23.019Z - info: fs store is persisting using fs for /home/soksim/Documents/POS/Posv2/report-v3/data
+2026-06-09T05:03:23.022Z - info: fs store is loading data
+2026-06-09T05:03:23.037Z - info: fs store is initialized successfully
+2026-06-09T05:03:23.045Z - info: Creating default express app.
+2026-06-09T05:03:23.064Z - info: jsreport server successfully started on http port: 5488
+2026-06-09T05:03:23.065Z - info: Verifying license key free
+2026-06-09T05:03:23.065Z - info: Using free license
+2026-06-09T05:03:23.068Z - info: Initializing worker threads
+2026-06-09T05:03:23.505Z - info: 2 worker threads initialized in 437ms
+2026-06-09T05:03:23.505Z - info: Starting temp files cleanup with 180000ms threshold
+2026-06-09T05:03:23.506Z - info: reporter initialized
+2026-06-09T05:05:01.433Z - info: Render request 1 queued for execution and waiting for available worker rootId=eme649t9oh2jewq, id=eme649t9oh2jewq
+2026-06-09T05:05:01.483Z - info: Starting rendering request 1 (user: admin) rootId=eme649t9oh2jewq, id=eme649t9oh2jewq
+2026-06-09T05:05:01.483Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=eme649t9oh2jewq, id=eme649t9oh2jewq
+2026-06-09T05:05:02.110Z - info: Rendering request 1 finished in 674 ms rootId=eme649t9oh2jewq, id=eme649t9oh2jewq
+2026-06-09T05:13:02.812Z - info: Render request 2 queued for execution and waiting for available worker rootId=0dyv49vcqqv8aih, id=0dyv49vcqqv8aih
+2026-06-09T05:13:02.927Z - info: Starting rendering request 2 (user: admin) rootId=0dyv49vcqqv8aih, id=0dyv49vcqqv8aih
+2026-06-09T05:13:02.928Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=0dyv49vcqqv8aih, id=0dyv49vcqqv8aih
+2026-06-09T05:13:03.949Z - info: Rendering request 2 finished in 1128 ms rootId=0dyv49vcqqv8aih, id=0dyv49vcqqv8aih

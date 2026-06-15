@@ -1,0 +1,14 @@
+{
+    "name": "invoice-data",
+    "shortid": "QqvBKlmfs",
+    "creationDate": {
+        "$$date": 1703907376909
+    },
+    "modificationDate": {
+        "$$date": 1703907376909
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "WlzUD60jNINHznFu",
+    "$entitySet": "data"
+}

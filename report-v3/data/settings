@@ -1,0 +1,4 @@
+{"key":"core-migrated-versionControl-props","value":"true","creationDate":{"$$date":1703907334120},"modificationDate":{"$$date":1703907334120},"shortid":"6NAP4bU","_id":"V9jHa0OzIrMEp92d","$entitySet":"settings"}
+{"key":"chrome-network-idle-migrated","value":"true","creationDate":{"$$date":1703907334126},"modificationDate":{"$$date":1703907334126},"shortid":"CfDBLCZ","_id":"tGoHDExZ9zJjBrun","$entitySet":"settings"}
+{"key":"sample-created","value":"true","creationDate":{"$$date":1703907352226},"modificationDate":{"$$date":1703907352226},"shortid":"_UnlKTX","_id":"Ui1XNqmWtB5y3Uwa","$entitySet":"settings"}
+{"key":"profiler","value":"{\"mode\":\"full\"}","creationDate":{"$$date":1780980006112},"modificationDate":{"$$date":1780980006112},"shortid":"CrB9xUG","_id":"FLcYacwIIIGBumBl","$entitySet":"settings"}

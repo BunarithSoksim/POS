@@ -1,0 +1,14 @@
+{
+    "name": "invoice-pos",
+    "creationDate": {
+        "$$date": 1703907376893
+    },
+    "modificationDate": {
+        "$$date": 1703907540041
+    },
+    "shortid": "eNjrAQ5",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "Im4eyBIw5hxEKJLz",
+    "$entitySet": "folders"
+}

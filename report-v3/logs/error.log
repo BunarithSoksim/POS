@@ -1,0 +1,111 @@
+2026-06-09T03:24:24.229Z - error: Error occurred during reporter init: TypeError: Accessor not expected at intrinsics.%IteratorPrototype%.constructor
+  at isAllowedProperty (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/ses/index.js:4029:13)
+  at visitProperties (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/ses/index.js:4076:26)
+  at isAllowedPropertyValue (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/ses/index.js:3963:7)
+  at isAllowedProperty (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/ses/index.js:4026:14)
+  at visitProperties (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/ses/index.js:4076:26)
+  at whitelistIntrinsics (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/ses/index.js:4119:3)
+  at repairIntrinsics (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/ses/index.js:9808:3)
+  at globalThis.lockdown (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/ses/index.js:9897:28)
+  at WorkerReporter.init (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:88:7)
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17)
+2026-06-09T04:08:42.541Z - error: Error when processing render request 2
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: /home/soksim/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: /home/soksim/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:79:28)
+  at async createBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+  at async allocateBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+  at async getBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+  at async module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+  at async execute (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:73:20
+  at async invokeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:94:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:142:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=vtr9loe1oh8mwck, id=vtr9loe1oh8mwck
+2026-06-09T04:08:42.541Z - error: Rendering request 2 finished with error in 575 ms rootId=vtr9loe1oh8mwck, id=vtr9loe1oh8mwck
+2026-06-09T04:08:42.541Z - error: Error during processing request at http://localhost:5488/api/report
+2026-06-09T04:09:03.367Z - error: Error when processing render request 5
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: /home/soksim/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: /home/soksim/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:79:28)
+  at async createBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+  at async allocateBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+  at async getBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+  at async module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+  at async execute (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:73:20
+  at async invokeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:94:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:142:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=ixk2uyhzdza37ln, id=ixk2uyhzdza37ln
+2026-06-09T04:09:03.367Z - error: Rendering request 5 finished with error in 423 ms rootId=ixk2uyhzdza37ln, id=ixk2uyhzdza37ln
+2026-06-09T04:09:03.368Z - error: Error during processing request at http://localhost:5488/api/report
+2026-06-09T04:10:00.756Z - error: Error when processing render request 7
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: /home/soksim/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: /home/soksim/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:79:28)
+  at async createBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+  at async allocateBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+  at async getBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+  at async module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+  at async execute (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:73:20
+  at async invokeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:94:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:142:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=plssw0jjf0z72e5, id=plssw0jjf0z72e5
+2026-06-09T04:10:00.756Z - error: Rendering request 7 finished with error in 40136 ms rootId=plssw0jjf0z72e5, id=plssw0jjf0z72e5
+2026-06-09T04:10:00.757Z - error: Error during processing request at http://localhost:5488/api/report
+2026-06-09T04:10:18.217Z - error: Error when processing render request 9
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: /home/soksim/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: /home/soksim/.cache/puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:79:28)
+  at async createBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+  at async allocateBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+  at async getBrowser (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+  at async module.exports (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+  at async execute (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:73:20
+  at async invokeRender (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:94:5)
+  at async WorkerReporter._render (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:142:7)
+  at async /home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:224:19
+  at async processAndResponse (/home/soksim/Documents/POS/Posv2/report-v3/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:41:17) rootId=cftzmk2afk9v4vk, id=cftzmk2afk9v4vk
+2026-06-09T04:10:18.217Z - error: Rendering request 9 finished with error in 10933 ms rootId=cftzmk2afk9v4vk, id=cftzmk2afk9v4vk
+2026-06-09T04:10:18.218Z - error: Error during processing request at http://localhost:5488/api/report
